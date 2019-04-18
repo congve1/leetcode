@@ -1,15 +1,30 @@
-class RangeModule:
+class RangeModule(object):
 
     def __init__(self):
         
 
-    def addRange(self, left: int, right: int) -> None:
+    def addRange(self, left, right):
+        """
+        :type left: int
+        :type right: int
+        :rtype: None
+        """
         
 
-    def queryRange(self, left: int, right: int) -> bool:
+    def queryRange(self, left, right):
+        """
+        :type left: int
+        :type right: int
+        :rtype: bool
+        """
         
 
-    def removeRange(self, left: int, right: int) -> None:
+    def removeRange(self, left, right):
+        """
+        :type left: int
+        :type right: int
+        :rtype: None
+        """
         
 
 

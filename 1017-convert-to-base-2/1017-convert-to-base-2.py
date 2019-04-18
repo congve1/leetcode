@@ -1,2 +1,6 @@
-class Solution:
-    def baseNeg2(self, N: int) -> str:
+class Solution(object):
+    def baseNeg2(self, N):
+        """
+        :type N: int
+        :rtype: str
+        """

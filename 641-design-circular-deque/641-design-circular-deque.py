@@ -1,56 +1,67 @@
-class MyCircularDeque:
+class MyCircularDeque(object):
 
-    def __init__(self, k: int):
+    def __init__(self, k):
         """
         Initialize your data structure here. Set the size of the deque to be k.
+        :type k: int
         """
         
 
-    def insertFront(self, value: int) -> bool:
+    def insertFront(self, value):
         """
         Adds an item at the front of Deque. Return true if the operation is successful.
+        :type value: int
+        :rtype: bool
         """
         
 
-    def insertLast(self, value: int) -> bool:
+    def insertLast(self, value):
         """
         Adds an item at the rear of Deque. Return true if the operation is successful.
+        :type value: int
+        :rtype: bool
         """
         
 
-    def deleteFront(self) -> bool:
+    def deleteFront(self):
         """
         Deletes an item from the front of Deque. Return true if the operation is successful.
+        :rtype: bool
         """
         
 
-    def deleteLast(self) -> bool:
+    def deleteLast(self):
         """
         Deletes an item from the rear of Deque. Return true if the operation is successful.
+        :rtype: bool
         """
         
 
-    def getFront(self) -> int:
+    def getFront(self):
         """
         Get the front item from the deque.
+        :rtype: int
         """
         
 
-    def getRear(self) -> int:
+    def getRear(self):
         """
         Get the last item from the deque.
+        :rtype: int
         """
         
 
-    def isEmpty(self) -> bool:
+    def isEmpty(self):
         """
         Checks whether the circular deque is empty or not.
+        :rtype: bool
         """
         
 
-    def isFull(self) -> bool:
+    def isFull(self):
         """
         Checks whether the circular deque is full or not.
+        :rtype: bool
         """
         
 

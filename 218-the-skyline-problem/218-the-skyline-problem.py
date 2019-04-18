@@ -1,3 +1,7 @@
-class Solution:
-    def getSkyline(self, buildings: List[List[int]]) -> List[List[int]]:
+class Solution(object):
+    def getSkyline(self, buildings):
+        """
+        :type buildings: List[List[int]]
+        :rtype: List[List[int]]
+        """
         

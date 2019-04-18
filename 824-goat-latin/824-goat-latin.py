@@ -1,3 +1,7 @@
-class Solution:
-    def toGoatLatin(self, S: str) -> str:
+class Solution(object):
+    def toGoatLatin(self, S):
+        """
+        :type S: str
+        :rtype: str
+        """
         

@@ -1,3 +1,7 @@
-class Solution:
-    def checkValidString(self, s: str) -> bool:
+class Solution(object):
+    def checkValidString(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
         

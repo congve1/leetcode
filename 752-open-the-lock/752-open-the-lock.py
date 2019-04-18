@@ -1,3 +1,8 @@
-class Solution:
-    def openLock(self, deadends: List[str], target: str) -> int:
+class Solution(object):
+    def openLock(self, deadends, target):
+        """
+        :type deadends: List[str]
+        :type target: str
+        :rtype: int
+        """
         

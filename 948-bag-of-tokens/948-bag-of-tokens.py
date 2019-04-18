@@ -1,3 +1,8 @@
-class Solution:
-    def bagOfTokensScore(self, tokens: List[int], P: int) -> int:
+class Solution(object):
+    def bagOfTokensScore(self, tokens, P):
+        """
+        :type tokens: List[int]
+        :type P: int
+        :rtype: int
+        """
         

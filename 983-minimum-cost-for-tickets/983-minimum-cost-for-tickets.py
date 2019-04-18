@@ -1,3 +1,8 @@
-class Solution:
-    def mincostTickets(self, days: List[int], costs: List[int]) -> int:
+class Solution(object):
+    def mincostTickets(self, days, costs):
+        """
+        :type days: List[int]
+        :type costs: List[int]
+        :rtype: int
+        """
         

@@ -1,3 +1,7 @@
-class Solution:
-    def minMoves2(self, nums: List[int]) -> int:
+class Solution(object):
+    def minMoves2(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         

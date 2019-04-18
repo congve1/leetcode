@@ -1,3 +1,7 @@
-class Solution:
-    def minimumLengthEncoding(self, words: List[str]) -> int:
+class Solution(object):
+    def minimumLengthEncoding(self, words):
+        """
+        :type words: List[str]
+        :rtype: int
+        """
         

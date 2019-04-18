@@ -1,6 +1,6 @@
 # Below is the interface for Iterator, which is already defined for you.
 #
-# class Iterator:
+# class Iterator(object):
 #     def __init__(self, nums):
 #         """
 #         Initializes an iterator object to the beginning of a list.
@@ -19,7 +19,7 @@
 #         :rtype: int
 #         """
 
-class PeekingIterator:
+class PeekingIterator(object):
     def __init__(self, iterator):
         """
         Initialize your data structure here.

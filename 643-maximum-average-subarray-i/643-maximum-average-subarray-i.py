@@ -1,3 +1,8 @@
-class Solution:
-    def findMaxAverage(self, nums: List[int], k: int) -> float:
+class Solution(object):
+    def findMaxAverage(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: float
+        """
         

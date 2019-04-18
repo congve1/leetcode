@@ -1,3 +1,7 @@
-class Solution:
-    def rotatedDigits(self, N: int) -> int:
+class Solution(object):
+    def rotatedDigits(self, N):
+        """
+        :type N: int
+        :rtype: int
+        """
         

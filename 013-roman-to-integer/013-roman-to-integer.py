@@ -1,3 +1,7 @@
-class Solution:
-    def romanToInt(self, s: str) -> int:
+class Solution(object):
+    def romanToInt(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
         

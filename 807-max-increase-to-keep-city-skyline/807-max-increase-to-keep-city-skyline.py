@@ -1,3 +1,7 @@
-class Solution:
-    def maxIncreaseKeepingSkyline(self, grid: List[List[int]]) -> int:
+class Solution(object):
+    def maxIncreaseKeepingSkyline(self, grid):
+        """
+        :type grid: List[List[int]]
+        :rtype: int
+        """
         

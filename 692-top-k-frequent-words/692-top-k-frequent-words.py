@@ -1,3 +1,8 @@
-class Solution:
-    def topKFrequent(self, words: List[str], k: int) -> List[str]:
+class Solution(object):
+    def topKFrequent(self, words, k):
+        """
+        :type words: List[str]
+        :type k: int
+        :rtype: List[str]
+        """
         

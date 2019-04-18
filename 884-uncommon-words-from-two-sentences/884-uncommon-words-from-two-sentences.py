@@ -1,3 +1,8 @@
-class Solution:
-    def uncommonFromSentences(self, A: str, B: str) -> List[str]:
+class Solution(object):
+    def uncommonFromSentences(self, A, B):
+        """
+        :type A: str
+        :type B: str
+        :rtype: List[str]
+        """
         

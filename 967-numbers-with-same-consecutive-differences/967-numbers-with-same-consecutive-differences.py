@@ -1,4 +1,4 @@
-class Solution:
+class Solution(object):
     def numsSameConsecDiff(self, N, K):
         """
         :type N: int

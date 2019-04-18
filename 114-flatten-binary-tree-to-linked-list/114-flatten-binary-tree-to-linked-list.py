@@ -1,13 +1,14 @@
 # Definition for a binary tree node.
-# class TreeNode:
+# class TreeNode(object):
 #     def __init__(self, x):
 #         self.val = x
 #         self.left = None
 #         self.right = None
 
-class Solution:
-    def flatten(self, root: TreeNode) -> None:
+class Solution(object):
+    def flatten(self, root):
         """
-        Do not return anything, modify root in-place instead.
+        :type root: TreeNode
+        :rtype: None Do not return anything, modify root in-place instead.
         """
         

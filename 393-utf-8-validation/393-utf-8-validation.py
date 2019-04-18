@@ -1,3 +1,7 @@
-class Solution:
-    def validUtf8(self, data: List[int]) -> bool:
+class Solution(object):
+    def validUtf8(self, data):
+        """
+        :type data: List[int]
+        :rtype: bool
+        """
         

@@ -1,12 +1,19 @@
-class FreqStack:
+class FreqStack(object):
 
     def __init__(self):
         
 
-    def push(self, x: int) -> None:
+    def push(self, x):
+        """
+        :type x: int
+        :rtype: None
+        """
         
 
-    def pop(self) -> int:
+    def pop(self):
+        """
+        :rtype: int
+        """
         
 
 

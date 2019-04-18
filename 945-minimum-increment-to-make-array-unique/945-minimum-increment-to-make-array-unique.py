@@ -1,3 +1,7 @@
-class Solution:
-    def minIncrementForUnique(self, A: List[int]) -> int:
+class Solution(object):
+    def minIncrementForUnique(self, A):
+        """
+        :type A: List[int]
+        :rtype: int
+        """
         

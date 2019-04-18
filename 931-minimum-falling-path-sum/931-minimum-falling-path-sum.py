@@ -1,3 +1,7 @@
-class Solution:
-    def minFallingPathSum(self, A: List[List[int]]) -> int:
+class Solution(object):
+    def minFallingPathSum(self, A):
+        """
+        :type A: List[List[int]]
+        :rtype: int
+        """
         

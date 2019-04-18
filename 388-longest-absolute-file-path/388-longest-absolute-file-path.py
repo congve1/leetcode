@@ -1,3 +1,7 @@
-class Solution:
-    def lengthLongestPath(self, input: str) -> int:
+class Solution(object):
+    def lengthLongestPath(self, input):
+        """
+        :type input: str
+        :rtype: int
+        """
         

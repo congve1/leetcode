@@ -1,3 +1,7 @@
-class Solution:
-    def diffWaysToCompute(self, input: str) -> List[int]:
+class Solution(object):
+    def diffWaysToCompute(self, input):
+        """
+        :type input: str
+        :rtype: List[int]
+        """
         

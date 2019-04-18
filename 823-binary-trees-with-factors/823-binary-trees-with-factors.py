@@ -1,3 +1,7 @@
-class Solution:
-    def numFactoredBinaryTrees(self, A: List[int]) -> int:
+class Solution(object):
+    def numFactoredBinaryTrees(self, A):
+        """
+        :type A: List[int]
+        :rtype: int
+        """
         

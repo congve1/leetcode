@@ -1,9 +1,16 @@
-class Solution:
+class Solution(object):
 
-    def __init__(self, N: int, blacklist: List[int]):
+    def __init__(self, N, blacklist):
+        """
+        :type N: int
+        :type blacklist: List[int]
+        """
         
 
-    def pick(self) -> int:
+    def pick(self):
+        """
+        :rtype: int
+        """
         
 
 

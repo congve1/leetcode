@@ -1,3 +1,7 @@
-class Solution:
-    def solveNQueens(self, n: int) -> List[List[str]]:
+class Solution(object):
+    def solveNQueens(self, n):
+        """
+        :type n: int
+        :rtype: List[List[str]]
+        """
         

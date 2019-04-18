@@ -1,3 +1,7 @@
-class Solution:
-    def isRectangleCover(self, rectangles: List[List[int]]) -> bool:
+class Solution(object):
+    def isRectangleCover(self, rectangles):
+        """
+        :type rectangles: List[List[int]]
+        :rtype: bool
+        """
         

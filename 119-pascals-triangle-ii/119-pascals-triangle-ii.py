@@ -1,3 +1,7 @@
-class Solution:
-    def getRow(self, rowIndex: int) -> List[int]:
+class Solution(object):
+    def getRow(self, rowIndex):
+        """
+        :type rowIndex: int
+        :rtype: List[int]
+        """
         

@@ -1,2 +1,6 @@
-class Solution:
-    def canThreePartsEqualSum(self, A: List[int]) -> bool:
+class Solution(object):
+    def canThreePartsEqualSum(self, A):
+        """
+        :type A: List[int]
+        :rtype: bool
+        """

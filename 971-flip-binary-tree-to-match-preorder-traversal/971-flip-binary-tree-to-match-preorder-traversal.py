@@ -1,10 +1,15 @@
 # Definition for a binary tree node.
-# class TreeNode:
+# class TreeNode(object):
 #     def __init__(self, x):
 #         self.val = x
 #         self.left = None
 #         self.right = None
 
-class Solution:
-    def flipMatchVoyage(self, root: TreeNode, voyage: List[int]) -> List[int]:
+class Solution(object):
+    def flipMatchVoyage(self, root, voyage):
+        """
+        :type root: TreeNode
+        :type voyage: List[int]
+        :rtype: List[int]
+        """
         

@@ -1,3 +1,7 @@
-class Solution:
-    def minAreaRect(self, points: List[List[int]]) -> int:
+class Solution(object):
+    def minAreaRect(self, points):
+        """
+        :type points: List[List[int]]
+        :rtype: int
+        """
         

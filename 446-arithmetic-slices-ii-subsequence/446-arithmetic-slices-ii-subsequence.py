@@ -1,3 +1,7 @@
-class Solution:
-    def numberOfArithmeticSlices(self, A: List[int]) -> int:
+class Solution(object):
+    def numberOfArithmeticSlices(self, A):
+        """
+        :type A: List[int]
+        :rtype: int
+        """
         

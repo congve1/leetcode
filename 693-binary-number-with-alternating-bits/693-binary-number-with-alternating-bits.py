@@ -1,3 +1,7 @@
-class Solution:
-    def hasAlternatingBits(self, n: int) -> bool:
+class Solution(object):
+    def hasAlternatingBits(self, n):
+        """
+        :type n: int
+        :rtype: bool
+        """
         

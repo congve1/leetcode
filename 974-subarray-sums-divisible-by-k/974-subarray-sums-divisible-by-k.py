@@ -1,3 +1,8 @@
-class Solution:
-    def subarraysDivByK(self, A: List[int], K: int) -> int:
+class Solution(object):
+    def subarraysDivByK(self, A, K):
+        """
+        :type A: List[int]
+        :type K: int
+        :rtype: int
+        """
         

@@ -1,6 +1,7 @@
-class Solution:
-    def gameOfLife(self, board: List[List[int]]) -> None:
+class Solution(object):
+    def gameOfLife(self, board):
         """
-        Do not return anything, modify board in-place instead.
+        :type board: List[List[int]]
+        :rtype: None Do not return anything, modify board in-place instead.
         """
         

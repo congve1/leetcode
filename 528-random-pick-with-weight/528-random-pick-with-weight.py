@@ -1,9 +1,15 @@
-class Solution:
+class Solution(object):
 
-    def __init__(self, w: List[int]):
+    def __init__(self, w):
+        """
+        :type w: List[int]
+        """
         
 
-    def pickIndex(self) -> int:
+    def pickIndex(self):
+        """
+        :rtype: int
+        """
         
 
 

@@ -1,3 +1,7 @@
-class Solution:
-    def maxWidthRamp(self, A: List[int]) -> int:
+class Solution(object):
+    def maxWidthRamp(self, A):
+        """
+        :type A: List[int]
+        :rtype: int
+        """
         

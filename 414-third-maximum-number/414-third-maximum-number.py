@@ -1,3 +1,7 @@
-class Solution:
-    def thirdMax(self, nums: List[int]) -> int:
+class Solution(object):
+    def thirdMax(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         

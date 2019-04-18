@@ -1,3 +1,9 @@
-class Solution:
-    def countRangeSum(self, nums: List[int], lower: int, upper: int) -> int:
+class Solution(object):
+    def countRangeSum(self, nums, lower, upper):
+        """
+        :type nums: List[int]
+        :type lower: int
+        :type upper: int
+        :rtype: int
+        """
         

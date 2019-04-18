@@ -1,3 +1,8 @@
-class Solution:
-    def change(self, amount: int, coins: List[int]) -> int:
+class Solution(object):
+    def change(self, amount, coins):
+        """
+        :type amount: int
+        :type coins: List[int]
+        :rtype: int
+        """
         

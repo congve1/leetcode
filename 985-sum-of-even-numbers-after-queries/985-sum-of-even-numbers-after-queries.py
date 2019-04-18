@@ -1,3 +1,8 @@
-class Solution:
-    def sumEvenAfterQueries(self, A: List[int], queries: List[List[int]]) -> List[int]:
+class Solution(object):
+    def sumEvenAfterQueries(self, A, queries):
+        """
+        :type A: List[int]
+        :type queries: List[List[int]]
+        :rtype: List[int]
+        """
         

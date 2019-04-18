@@ -1,3 +1,7 @@
-class Solution:
-    def isValidSerialization(self, preorder: str) -> bool:
+class Solution(object):
+    def isValidSerialization(self, preorder):
+        """
+        :type preorder: str
+        :rtype: bool
+        """
         

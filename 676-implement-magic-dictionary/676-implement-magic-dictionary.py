@@ -1,4 +1,4 @@
-class MagicDictionary:
+class MagicDictionary(object):
 
     def __init__(self):
         """
@@ -6,15 +6,19 @@ class MagicDictionary:
         """
         
 
-    def buildDict(self, dict: List[str]) -> None:
+    def buildDict(self, dict):
         """
         Build a dictionary through a list of words
+        :type dict: List[str]
+        :rtype: None
         """
         
 
-    def search(self, word: str) -> bool:
+    def search(self, word):
         """
         Returns if there is any word in the trie that equals to the given word after modifying exactly one character
+        :type word: str
+        :rtype: bool
         """
         
 

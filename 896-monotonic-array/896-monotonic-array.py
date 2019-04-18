@@ -1,3 +1,7 @@
-class Solution:
-    def isMonotonic(self, A: List[int]) -> bool:
+class Solution(object):
+    def isMonotonic(self, A):
+        """
+        :type A: List[int]
+        :rtype: bool
+        """
         

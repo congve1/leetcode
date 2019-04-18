@@ -1,19 +1,29 @@
 # Definition for a binary tree node.
-# class TreeNode:
+# class TreeNode(object):
 #     def __init__(self, x):
 #         self.val = x
 #         self.left = None
 #         self.right = None
 
-class CBTInserter:
+class CBTInserter(object):
 
-    def __init__(self, root: TreeNode):
+    def __init__(self, root):
+        """
+        :type root: TreeNode
+        """
         
 
-    def insert(self, v: int) -> int:
+    def insert(self, v):
+        """
+        :type v: int
+        :rtype: int
+        """
         
 
-    def get_root(self) -> TreeNode:
+    def get_root(self):
+        """
+        :rtype: TreeNode
+        """
         
 
 

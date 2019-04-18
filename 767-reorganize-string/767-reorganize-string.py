@@ -1,3 +1,7 @@
-class Solution:
-    def reorganizeString(self, S: str) -> str:
+class Solution(object):
+    def reorganizeString(self, S):
+        """
+        :type S: str
+        :rtype: str
+        """
         

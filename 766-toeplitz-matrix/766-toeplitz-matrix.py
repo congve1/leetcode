@@ -1,3 +1,7 @@
-class Solution:
-    def isToeplitzMatrix(self, matrix: List[List[int]]) -> bool:
+class Solution(object):
+    def isToeplitzMatrix(self, matrix):
+        """
+        :type matrix: List[List[int]]
+        :rtype: bool
+        """
         

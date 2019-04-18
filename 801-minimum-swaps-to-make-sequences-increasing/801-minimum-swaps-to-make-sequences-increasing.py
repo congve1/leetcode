@@ -1,3 +1,8 @@
-class Solution:
-    def minSwap(self, A: List[int], B: List[int]) -> int:
+class Solution(object):
+    def minSwap(self, A, B):
+        """
+        :type A: List[int]
+        :type B: List[int]
+        :rtype: int
+        """
         

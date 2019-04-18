@@ -55,3 +55,7 @@ class Solution(object):
         if res < min_num:
             return min_num
         return res
+            
+            
+                 
+        

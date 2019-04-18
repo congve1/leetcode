@@ -1,3 +1,7 @@
-class Solution:
-    def fractionAddition(self, expression: str) -> str:
+class Solution(object):
+    def fractionAddition(self, expression):
+        """
+        :type expression: str
+        :rtype: str
+        """
         

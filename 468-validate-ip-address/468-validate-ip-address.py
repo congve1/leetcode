@@ -1,3 +1,7 @@
-class Solution:
-    def validIPAddress(self, IP: str) -> str:
+class Solution(object):
+    def validIPAddress(self, IP):
+        """
+        :type IP: str
+        :rtype: str
+        """
         

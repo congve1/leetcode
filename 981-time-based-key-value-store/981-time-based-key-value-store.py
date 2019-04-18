@@ -1,4 +1,4 @@
-class TimeMap:
+class TimeMap(object):
 
     def __init__(self):
         """
@@ -6,10 +6,21 @@ class TimeMap:
         """
         
 
-    def set(self, key: str, value: str, timestamp: int) -> None:
+    def set(self, key, value, timestamp):
+        """
+        :type key: str
+        :type value: str
+        :type timestamp: int
+        :rtype: None
+        """
         
 
-    def get(self, key: str, timestamp: int) -> str:
+    def get(self, key, timestamp):
+        """
+        :type key: str
+        :type timestamp: int
+        :rtype: str
+        """
         
 
 

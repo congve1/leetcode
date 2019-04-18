@@ -1,3 +1,8 @@
-class Solution:
-    def prisonAfterNDays(self, cells: List[int], N: int) -> List[int]:
+class Solution(object):
+    def prisonAfterNDays(self, cells, N):
+        """
+        :type cells: List[int]
+        :type N: int
+        :rtype: List[int]
+        """
         

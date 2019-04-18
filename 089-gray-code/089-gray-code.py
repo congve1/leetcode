@@ -1,3 +1,7 @@
-class Solution:
-    def grayCode(self, n: int) -> List[int]:
+class Solution(object):
+    def grayCode(self, n):
+        """
+        :type n: int
+        :rtype: List[int]
+        """
         

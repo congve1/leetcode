@@ -1,6 +1,7 @@
-class Solution:
-    def solve(self, board: List[List[str]]) -> None:
+class Solution(object):
+    def solve(self, board):
         """
-        Do not return anything, modify board in-place instead.
+        :type board: List[List[str]]
+        :rtype: None Do not return anything, modify board in-place instead.
         """
         

@@ -1,3 +1,7 @@
-class Solution:
-    def countNumbersWithUniqueDigits(self, n: int) -> int:
+class Solution(object):
+    def countNumbersWithUniqueDigits(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
         

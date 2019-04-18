@@ -1,3 +1,7 @@
-class Solution:
-    def plusOne(self, digits: List[int]) -> List[int]:
+class Solution(object):
+    def plusOne(self, digits):
+        """
+        :type digits: List[int]
+        :rtype: List[int]
+        """
         

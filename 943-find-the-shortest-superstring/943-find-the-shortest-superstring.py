@@ -1,3 +1,7 @@
-class Solution:
-    def shortestSuperstring(self, A: List[str]) -> str:
+class Solution(object):
+    def shortestSuperstring(self, A):
+        """
+        :type A: List[str]
+        :rtype: str
+        """
         

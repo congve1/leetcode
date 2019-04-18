@@ -1,3 +1,7 @@
-class Solution:
-    def maximumProduct(self, nums: List[int]) -> int:
+class Solution(object):
+    def maximumProduct(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         

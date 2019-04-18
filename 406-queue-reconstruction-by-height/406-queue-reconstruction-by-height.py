@@ -1,3 +1,7 @@
-class Solution:
-    def reconstructQueue(self, people: List[List[int]]) -> List[List[int]]:
+class Solution(object):
+    def reconstructQueue(self, people):
+        """
+        :type people: List[List[int]]
+        :rtype: List[List[int]]
+        """
         

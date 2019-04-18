@@ -1,3 +1,8 @@
-class Solution:
-    def largestSumAfterKNegations(self, A: List[int], K: int) -> int:
+class Solution(object):
+    def largestSumAfterKNegations(self, A, K):
+        """
+        :type A: List[int]
+        :type K: int
+        :rtype: int
+        """
         

@@ -1,3 +1,7 @@
-class Solution:
-    def triangleNumber(self, nums: List[int]) -> int:
+class Solution(object):
+    def triangleNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         

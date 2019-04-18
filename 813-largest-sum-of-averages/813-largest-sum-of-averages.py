@@ -1,3 +1,8 @@
-class Solution:
-    def largestSumOfAverages(self, A: List[int], K: int) -> float:
+class Solution(object):
+    def largestSumOfAverages(self, A, K):
+        """
+        :type A: List[int]
+        :type K: int
+        :rtype: float
+        """
         

@@ -1,3 +1,7 @@
-class Solution:
-    def maxArea(self, height: List[int]) -> int:
+class Solution(object):
+    def maxArea(self, height):
+        """
+        :type height: List[int]
+        :rtype: int
+        """
         

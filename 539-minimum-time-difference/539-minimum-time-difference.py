@@ -1,3 +1,7 @@
-class Solution:
-    def findMinDifference(self, timePoints: List[str]) -> int:
+class Solution(object):
+    def findMinDifference(self, timePoints):
+        """
+        :type timePoints: List[str]
+        :rtype: int
+        """
         

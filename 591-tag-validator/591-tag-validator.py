@@ -1,3 +1,7 @@
-class Solution:
-    def isValid(self, code: str) -> bool:
+class Solution(object):
+    def isValid(self, code):
+        """
+        :type code: str
+        :rtype: bool
+        """
         

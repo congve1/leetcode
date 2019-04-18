@@ -1,3 +1,7 @@
-class Solution:
-    def accountsMerge(self, accounts: List[List[str]]) -> List[List[str]]:
+class Solution(object):
+    def accountsMerge(self, accounts):
+        """
+        :type accounts: List[List[str]]
+        :rtype: List[List[str]]
+        """
         

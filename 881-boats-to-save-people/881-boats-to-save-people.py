@@ -1,3 +1,8 @@
-class Solution:
-    def numRescueBoats(self, people: List[int], limit: int) -> int:
+class Solution(object):
+    def numRescueBoats(self, people, limit):
+        """
+        :type people: List[int]
+        :type limit: int
+        :rtype: int
+        """
         

@@ -1,3 +1,7 @@
-class Solution:
-    def makesquare(self, nums: List[int]) -> bool:
+class Solution(object):
+    def makesquare(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: bool
+        """
         

@@ -1,6 +1,7 @@
-class Solution:
-    def setZeroes(self, matrix: List[List[int]]) -> None:
+class Solution(object):
+    def setZeroes(self, matrix):
         """
-        Do not return anything, modify matrix in-place instead.
+        :type matrix: List[List[int]]
+        :rtype: None Do not return anything, modify matrix in-place instead.
         """
         

@@ -1,3 +1,9 @@
-class Solution:
-    def mincostToHireWorkers(self, quality: List[int], wage: List[int], K: int) -> float:
+class Solution(object):
+    def mincostToHireWorkers(self, quality, wage, K):
+        """
+        :type quality: List[int]
+        :type wage: List[int]
+        :type K: int
+        :rtype: float
+        """
         

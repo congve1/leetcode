@@ -1,3 +1,8 @@
-class Solution:
-    def largestOverlap(self, A: List[List[int]], B: List[List[int]]) -> int:
+class Solution(object):
+    def largestOverlap(self, A, B):
+        """
+        :type A: List[List[int]]
+        :type B: List[List[int]]
+        :rtype: int
+        """
         

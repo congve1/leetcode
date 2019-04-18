@@ -1,3 +1,7 @@
-class Solution:
-    def subsetsWithDup(self, nums: List[int]) -> List[List[int]]:
+class Solution(object):
+    def subsetsWithDup(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
         

@@ -1,3 +1,7 @@
-class Solution:
-    def intersectionSizeTwo(self, intervals: List[List[int]]) -> int:
+class Solution(object):
+    def intersectionSizeTwo(self, intervals):
+        """
+        :type intervals: List[List[int]]
+        :rtype: int
+        """
         

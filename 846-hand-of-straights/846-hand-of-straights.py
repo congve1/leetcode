@@ -1,3 +1,8 @@
-class Solution:
-    def isNStraightHand(self, hand: List[int], W: int) -> bool:
+class Solution(object):
+    def isNStraightHand(self, hand, W):
+        """
+        :type hand: List[int]
+        :type W: int
+        :rtype: bool
+        """
         

@@ -1,4 +1,4 @@
-class MyStack:
+class MyStack(object):
 
     def __init__(self):
         """
@@ -6,27 +6,32 @@ class MyStack:
         """
         
 
-    def push(self, x: int) -> None:
+    def push(self, x):
         """
         Push element x onto stack.
+        :type x: int
+        :rtype: None
         """
         
 
-    def pop(self) -> int:
+    def pop(self):
         """
         Removes the element on top of the stack and returns that element.
+        :rtype: int
         """
         
 
-    def top(self) -> int:
+    def top(self):
         """
         Get the top element.
+        :rtype: int
         """
         
 
-    def empty(self) -> bool:
+    def empty(self):
         """
         Returns whether the stack is empty.
+        :rtype: bool
         """
         
 

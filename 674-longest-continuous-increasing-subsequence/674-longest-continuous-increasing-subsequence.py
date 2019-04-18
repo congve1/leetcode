@@ -1,3 +1,7 @@
-class Solution:
-    def findLengthOfLCIS(self, nums: List[int]) -> int:
+class Solution(object):
+    def findLengthOfLCIS(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         

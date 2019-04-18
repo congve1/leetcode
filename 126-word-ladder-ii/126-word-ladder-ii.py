@@ -1,3 +1,9 @@
-class Solution:
-    def findLadders(self, beginWord: str, endWord: str, wordList: List[str]) -> List[List[str]]:
+class Solution(object):
+    def findLadders(self, beginWord, endWord, wordList):
+        """
+        :type beginWord: str
+        :type endWord: str
+        :type wordList: List[str]
+        :rtype: List[List[str]]
+        """
         

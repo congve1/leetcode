@@ -1,3 +1,7 @@
-class Solution:
-    def slidingPuzzle(self, board: List[List[int]]) -> int:
+class Solution(object):
+    def slidingPuzzle(self, board):
+        """
+        :type board: List[List[int]]
+        :rtype: int
+        """
         

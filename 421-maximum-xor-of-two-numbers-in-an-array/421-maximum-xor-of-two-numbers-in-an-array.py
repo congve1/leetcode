@@ -1,3 +1,7 @@
-class Solution:
-    def findMaximumXOR(self, nums: List[int]) -> int:
+class Solution(object):
+    def findMaximumXOR(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         

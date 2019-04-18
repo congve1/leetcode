@@ -1,3 +1,7 @@
-class Solution:
-    def countOfAtoms(self, formula: str) -> str:
+class Solution(object):
+    def countOfAtoms(self, formula):
+        """
+        :type formula: str
+        :rtype: str
+        """
         

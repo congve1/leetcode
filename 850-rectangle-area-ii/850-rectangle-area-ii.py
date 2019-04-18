@@ -1,3 +1,7 @@
-class Solution:
-    def rectangleArea(self, rectangles: List[List[int]]) -> int:
+class Solution(object):
+    def rectangleArea(self, rectangles):
+        """
+        :type rectangles: List[List[int]]
+        :rtype: int
+        """
         

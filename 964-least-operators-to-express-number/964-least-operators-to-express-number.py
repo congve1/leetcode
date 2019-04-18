@@ -1,3 +1,8 @@
-class Solution:
-    def leastOpsExpressTarget(self, x: int, target: int) -> int:
+class Solution(object):
+    def leastOpsExpressTarget(self, x, target):
+        """
+        :type x: int
+        :type target: int
+        :rtype: int
+        """
         

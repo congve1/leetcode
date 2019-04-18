@@ -1,3 +1,8 @@
-class Solution:
-    def findMinHeightTrees(self, n: int, edges: List[List[int]]) -> List[int]:
+class Solution(object):
+    def findMinHeightTrees(self, n, edges):
+        """
+        :type n: int
+        :type edges: List[List[int]]
+        :rtype: List[int]
+        """
         

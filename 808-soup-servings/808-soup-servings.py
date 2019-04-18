@@ -1,3 +1,7 @@
-class Solution:
-    def soupServings(self, N: int) -> float:
+class Solution(object):
+    def soupServings(self, N):
+        """
+        :type N: int
+        :rtype: float
+        """
         

@@ -1,3 +1,7 @@
-class Solution:
-    def maximumGap(self, nums: List[int]) -> int:
+class Solution(object):
+    def maximumGap(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         

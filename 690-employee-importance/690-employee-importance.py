@@ -1,6 +1,6 @@
 """
 # Employee info
-class Employee:
+class Employee(object):
     def __init__(self, id, importance, subordinates):
         # It's the unique id of each node.
         # unique id of this employee
@@ -10,10 +10,11 @@ class Employee:
         # the id of direct subordinates
         self.subordinates = subordinates
 """
-class Solution:
+class Solution(object):
     def getImportance(self, employees, id):
         """
         :type employees: Employee
         :type id: int
         :rtype: int
-        """
+        """
+        

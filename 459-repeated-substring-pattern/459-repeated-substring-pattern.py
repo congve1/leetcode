@@ -1,3 +1,7 @@
-class Solution:
-    def repeatedSubstringPattern(self, s: str) -> bool:
+class Solution(object):
+    def repeatedSubstringPattern(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
         

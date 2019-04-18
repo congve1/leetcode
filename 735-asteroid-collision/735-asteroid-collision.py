@@ -1,3 +1,7 @@
-class Solution:
-    def asteroidCollision(self, asteroids: List[int]) -> List[int]:
+class Solution(object):
+    def asteroidCollision(self, asteroids):
+        """
+        :type asteroids: List[int]
+        :rtype: List[int]
+        """
         

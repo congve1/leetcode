@@ -1,3 +1,9 @@
-class Solution:
-    def champagneTower(self, poured: int, query_row: int, query_glass: int) -> float:
+class Solution(object):
+    def champagneTower(self, poured, query_row, query_glass):
+        """
+        :type poured: int
+        :type query_row: int
+        :type query_glass: int
+        :rtype: float
+        """
         

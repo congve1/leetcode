@@ -1,3 +1,8 @@
-class Solution:
-    def repeatedStringMatch(self, A: str, B: str) -> int:
+class Solution(object):
+    def repeatedStringMatch(self, A, B):
+        """
+        :type A: str
+        :type B: str
+        :rtype: int
+        """
         

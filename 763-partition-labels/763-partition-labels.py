@@ -1,3 +1,7 @@
-class Solution:
-    def partitionLabels(self, S: str) -> List[int]:
+class Solution(object):
+    def partitionLabels(self, S):
+        """
+        :type S: str
+        :rtype: List[int]
+        """
         

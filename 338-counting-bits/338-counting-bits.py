@@ -1,3 +1,7 @@
-class Solution:
-    def countBits(self, num: int) -> List[int]:
+class Solution(object):
+    def countBits(self, num):
+        """
+        :type num: int
+        :rtype: List[int]
+        """
         

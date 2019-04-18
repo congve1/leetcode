@@ -1,3 +1,7 @@
-class Solution:
-    def tallestBillboard(self, rods: List[int]) -> int:
+class Solution(object):
+    def tallestBillboard(self, rods):
+        """
+        :type rods: List[int]
+        :rtype: int
+        """
         

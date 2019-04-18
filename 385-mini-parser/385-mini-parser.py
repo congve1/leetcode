@@ -2,7 +2,7 @@
 # This is the interface that allows for creating nested lists.
 # You should not implement it, or speculate about its implementation
 # """
-#class NestedInteger:
+#class NestedInteger(object):
 #    def __init__(self, value=None):
 #        """
 #        If value is not specified, initializes an empty list.
@@ -41,6 +41,10 @@
 #        :rtype List[NestedInteger]
 #        """
 
-class Solution:
-    def deserialize(self, s: str) -> NestedInteger:
+class Solution(object):
+    def deserialize(self, s):
+        """
+        :type s: str
+        :rtype: NestedInteger
+        """
         

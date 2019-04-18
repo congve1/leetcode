@@ -1,4 +1,4 @@
-class MapSum:
+class MapSum(object):
 
     def __init__(self):
         """
@@ -6,10 +6,19 @@ class MapSum:
         """
         
 
-    def insert(self, key: str, val: int) -> None:
+    def insert(self, key, val):
+        """
+        :type key: str
+        :type val: int
+        :rtype: None
+        """
         
 
-    def sum(self, prefix: str) -> int:
+    def sum(self, prefix):
+        """
+        :type prefix: str
+        :rtype: int
+        """
         
 
 

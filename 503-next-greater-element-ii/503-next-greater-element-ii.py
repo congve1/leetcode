@@ -1,3 +1,7 @@
-class Solution:
-    def nextGreaterElements(self, nums: List[int]) -> List[int]:
+class Solution(object):
+    def nextGreaterElements(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
         

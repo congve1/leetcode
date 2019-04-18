@@ -1,3 +1,8 @@
-class Solution:
-    def search(self, nums: List[int], target: int) -> bool:
+class Solution(object):
+    def search(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: bool
+        """
         

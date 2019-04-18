@@ -1,4 +1,4 @@
-class AllOne:
+class AllOne(object):
 
     def __init__(self):
         """
@@ -6,27 +6,33 @@ class AllOne:
         """
         
 
-    def inc(self, key: str) -> None:
+    def inc(self, key):
         """
         Inserts a new key <Key> with value 1. Or increments an existing key by 1.
+        :type key: str
+        :rtype: None
         """
         
 
-    def dec(self, key: str) -> None:
+    def dec(self, key):
         """
         Decrements an existing key by 1. If Key's value is 1, remove it from the data structure.
+        :type key: str
+        :rtype: None
         """
         
 
-    def getMaxKey(self) -> str:
+    def getMaxKey(self):
         """
         Returns one of the keys with maximal value.
+        :rtype: str
         """
         
 
-    def getMinKey(self) -> str:
+    def getMinKey(self):
         """
         Returns one of the keys with Minimal value.
+        :rtype: str
         """
         
 

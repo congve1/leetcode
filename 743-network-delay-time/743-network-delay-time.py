@@ -1,3 +1,9 @@
-class Solution:
-    def networkDelayTime(self, times: List[List[int]], N: int, K: int) -> int:
+class Solution(object):
+    def networkDelayTime(self, times, N, K):
+        """
+        :type times: List[List[int]]
+        :type N: int
+        :type K: int
+        :rtype: int
+        """
         

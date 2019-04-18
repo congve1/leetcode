@@ -1,3 +1,7 @@
-class Solution:
-    def clumsy(self, N: int) -> int:
+class Solution(object):
+    def clumsy(self, N):
+        """
+        :type N: int
+        :rtype: int
+        """
         

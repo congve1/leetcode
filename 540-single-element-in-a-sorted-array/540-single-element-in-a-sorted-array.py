@@ -1,3 +1,7 @@
-class Solution:
-    def singleNonDuplicate(self, nums: List[int]) -> int:
+class Solution(object):
+    def singleNonDuplicate(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         

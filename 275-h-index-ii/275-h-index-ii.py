@@ -1,3 +1,7 @@
-class Solution:
-    def hIndex(self, citations: List[int]) -> int:
+class Solution(object):
+    def hIndex(self, citations):
+        """
+        :type citations: List[int]
+        :rtype: int
+        """
         

@@ -1,3 +1,8 @@
-class Solution:
-    def rangeBitwiseAnd(self, m: int, n: int) -> int:
+class Solution(object):
+    def rangeBitwiseAnd(self, m, n):
+        """
+        :type m: int
+        :type n: int
+        :rtype: int
+        """
         

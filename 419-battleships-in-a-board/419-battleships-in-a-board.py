@@ -1,3 +1,7 @@
-class Solution:
-    def countBattleships(self, board: List[List[str]]) -> int:
+class Solution(object):
+    def countBattleships(self, board):
+        """
+        :type board: List[List[str]]
+        :rtype: int
+        """
         

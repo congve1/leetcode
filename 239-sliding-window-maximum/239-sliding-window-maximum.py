@@ -1,3 +1,8 @@
-class Solution:
-    def maxSlidingWindow(self, nums: List[int], k: int) -> List[int]:
+class Solution(object):
+    def maxSlidingWindow(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: List[int]
+        """
         

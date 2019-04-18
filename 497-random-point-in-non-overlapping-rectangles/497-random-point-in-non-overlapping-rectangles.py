@@ -1,9 +1,15 @@
-class Solution:
+class Solution(object):
 
-    def __init__(self, rects: List[List[int]]):
+    def __init__(self, rects):
+        """
+        :type rects: List[List[int]]
+        """
         
 
-    def pick(self) -> List[int]:
+    def pick(self):
+        """
+        :rtype: List[int]
+        """
         
 
 

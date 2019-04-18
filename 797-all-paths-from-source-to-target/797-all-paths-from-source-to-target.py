@@ -1,3 +1,7 @@
-class Solution:
-    def allPathsSourceTarget(self, graph: List[List[int]]) -> List[List[int]]:
+class Solution(object):
+    def allPathsSourceTarget(self, graph):
+        """
+        :type graph: List[List[int]]
+        :rtype: List[List[int]]
+        """
         

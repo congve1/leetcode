@@ -1,3 +1,9 @@
-class Solution:
-    def numMusicPlaylists(self, N: int, L: int, K: int) -> int:
+class Solution(object):
+    def numMusicPlaylists(self, N, L, K):
+        """
+        :type N: int
+        :type L: int
+        :type K: int
+        :rtype: int
+        """
         

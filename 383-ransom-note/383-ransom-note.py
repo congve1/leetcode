@@ -1,3 +1,8 @@
-class Solution:
-    def canConstruct(self, ransomNote: str, magazine: str) -> bool:
+class Solution(object):
+    def canConstruct(self, ransomNote, magazine):
+        """
+        :type ransomNote: str
+        :type magazine: str
+        :rtype: bool
+        """
         

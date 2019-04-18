@@ -1,3 +1,7 @@
-class Solution:
-    def numTrees(self, n: int) -> int:
+class Solution(object):
+    def numTrees(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
         

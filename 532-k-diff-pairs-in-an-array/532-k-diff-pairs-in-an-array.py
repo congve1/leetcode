@@ -1,3 +1,8 @@
-class Solution:
-    def findPairs(self, nums: List[int], k: int) -> int:
+class Solution(object):
+    def findPairs(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: int
+        """
         

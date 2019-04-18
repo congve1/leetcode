@@ -1,3 +1,14 @@
-class Solution:
-    def computeArea(self, A: int, B: int, C: int, D: int, E: int, F: int, G: int, H: int) -> int:
+class Solution(object):
+    def computeArea(self, A, B, C, D, E, F, G, H):
+        """
+        :type A: int
+        :type B: int
+        :type C: int
+        :type D: int
+        :type E: int
+        :type F: int
+        :type G: int
+        :type H: int
+        :rtype: int
+        """
         

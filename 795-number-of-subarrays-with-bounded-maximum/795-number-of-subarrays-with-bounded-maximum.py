@@ -1,3 +1,9 @@
-class Solution:
-    def numSubarrayBoundedMax(self, A: List[int], L: int, R: int) -> int:
+class Solution(object):
+    def numSubarrayBoundedMax(self, A, L, R):
+        """
+        :type A: List[int]
+        :type L: int
+        :type R: int
+        :rtype: int
+        """
         

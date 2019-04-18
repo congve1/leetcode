@@ -1,3 +1,7 @@
-class Solution:
-    def simplifyPath(self, path: str) -> str:
+class Solution(object):
+    def simplifyPath(self, path):
+        """
+        :type path: str
+        :rtype: str
+        """
         

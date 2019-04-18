@@ -1,3 +1,8 @@
-class Solution:
-    def expressiveWords(self, S: str, words: List[str]) -> int:
+class Solution(object):
+    def expressiveWords(self, S, words):
+        """
+        :type S: str
+        :type words: List[str]
+        :rtype: int
+        """
         

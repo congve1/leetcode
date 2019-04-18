@@ -1,3 +1,7 @@
-class Solution:
-    def snakesAndLadders(self, board: List[List[int]]) -> int:
+class Solution(object):
+    def snakesAndLadders(self, board):
+        """
+        :type board: List[List[int]]
+        :rtype: int
+        """
         

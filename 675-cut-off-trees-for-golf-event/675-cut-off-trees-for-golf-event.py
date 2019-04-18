@@ -1,3 +1,7 @@
-class Solution:
-    def cutOffTree(self, forest: List[List[int]]) -> int:
+class Solution(object):
+    def cutOffTree(self, forest):
+        """
+        :type forest: List[List[int]]
+        :rtype: int
+        """
         

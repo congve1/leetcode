@@ -1,3 +1,7 @@
-class Solution:
-    def isSelfCrossing(self, x: List[int]) -> bool:
+class Solution(object):
+    def isSelfCrossing(self, x):
+        """
+        :type x: List[int]
+        :rtype: bool
+        """
         

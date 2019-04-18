@@ -1,3 +1,7 @@
-class Solution:
-    def trap(self, height: List[int]) -> int:
+class Solution(object):
+    def trap(self, height):
+        """
+        :type height: List[int]
+        :rtype: int
+        """
         

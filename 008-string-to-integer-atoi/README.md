@@ -90,66 +90,46 @@ If no valid conversion could be performed, a zero value is returned.
 **Example 1:**
 
     
-    
-
-    **Input:** "42"
-
-    **Output:** 42
-
+    
+    **Input:** "42"
+    **Output:** 42
     
 
 **Example 2:**
 
     
-    
-
-    **Input:** "   -42"
-
-    **Output:** -42
-
-    **Explanation:** The first non-whitespace character is '-', which is the minus sign.
-
-                 Then take as many numerical digits as possible, which gets 42.
-
+    
+    **Input:** "   -42"
+    **Output:** -42
+    **Explanation:** The first non-whitespace character is '-', which is the minus sign.
+                 Then take as many numerical digits as possible, which gets 42.
     
 
 **Example 3:**
 
     
-    
-
-    **Input:** "4193 with words"
-
-    **Output:** 4193
-
-    **Explanation:** Conversion stops at digit '3' as the next character is not a numerical digit.
-
+    
+    **Input:** "4193 with words"
+    **Output:** 4193
+    **Explanation:** Conversion stops at digit '3' as the next character is not a numerical digit.
     
 
 **Example 4:**
 
     
-    
-
-    **Input:** "words and 987"
-
-    **Output:** 0
-
-    **Explanation:** The first non-whitespace character is 'w', which is not a numerical 
-
+    
+    **Input:** "words and 987"
+    **Output:** 0
+    **Explanation:** The first non-whitespace character is 'w', which is not a numerical 
                  digit or a +/- sign. Therefore no valid conversion could be performed.
 
 **Example 5:**
 
     
-    
-
-    **Input:** "-91283472332"
-
-    **Output:** -2147483648
-
-    **Explanation:** The number "-91283472332" is out of the range of a 32-bit signed integer.
-
+    
+    **Input:** "-91283472332"
+    **Output:** -2147483648
+    **Explanation:** The number "-91283472332" is out of the range of a 32-bit signed integer.
                  Thefore INT_MIN (−231) is returned.
 
 
@@ -158,9 +138,3 @@ If no valid conversion could be performed, a zero value is returned.
 **Difficulty:** Medium
 
 **思路:**
-
-利用栈来计算。
-首先找到第一个非0字符的索引， 判断第一个字符的类型，若是数字,'+', '-'则压入栈。
-遍历剩余的字符串，如果遇到非数字的字符则退出。
-将栈内的内容依次弹出，用一个变量保存指数，每一个数`*10^n`，然后加到答案中
-若遇到'+'，则退出，遇到'-'，则取相反数。

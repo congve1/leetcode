@@ -1,3 +1,7 @@
-class Solution:
-    def decodeString(self, s: str) -> str:
+class Solution(object):
+    def decodeString(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
         

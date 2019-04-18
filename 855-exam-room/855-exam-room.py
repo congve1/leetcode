@@ -1,12 +1,22 @@
-class ExamRoom:
+class ExamRoom(object):
 
-    def __init__(self, N: int):
+    def __init__(self, N):
+        """
+        :type N: int
+        """
         
 
-    def seat(self) -> int:
+    def seat(self):
+        """
+        :rtype: int
+        """
         
 
-    def leave(self, p: int) -> None:
+    def leave(self, p):
+        """
+        :type p: int
+        :rtype: None
+        """
         
 
 

@@ -1,3 +1,7 @@
-class Solution:
-    def subarrayBitwiseORs(self, A: List[int]) -> int:
+class Solution(object):
+    def subarrayBitwiseORs(self, A):
+        """
+        :type A: List[int]
+        :rtype: int
+        """
         

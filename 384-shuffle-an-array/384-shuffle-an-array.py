@@ -1,17 +1,22 @@
-class Solution:
+class Solution(object):
 
-    def __init__(self, nums: List[int]):
+    def __init__(self, nums):
+        """
+        :type nums: List[int]
+        """
         
 
-    def reset(self) -> List[int]:
+    def reset(self):
         """
         Resets the array to its original configuration and return it.
+        :rtype: List[int]
         """
         
 
-    def shuffle(self) -> List[int]:
+    def shuffle(self):
         """
         Returns a random shuffling of the array.
+        :rtype: List[int]
         """
         
 

@@ -1,3 +1,9 @@
-class Solution:
-    def carFleet(self, target: int, position: List[int], speed: List[int]) -> int:
+class Solution(object):
+    def carFleet(self, target, position, speed):
+        """
+        :type target: int
+        :type position: List[int]
+        :type speed: List[int]
+        :rtype: int
+        """
         

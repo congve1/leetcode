@@ -1,3 +1,8 @@
-class Solution:
-    def mostCommonWord(self, paragraph: str, banned: List[str]) -> str:
+class Solution(object):
+    def mostCommonWord(self, paragraph, banned):
+        """
+        :type paragraph: str
+        :type banned: List[str]
+        :rtype: str
+        """
         

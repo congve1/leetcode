@@ -1,3 +1,7 @@
-class Solution:
-    def matrixScore(self, A: List[List[int]]) -> int:
+class Solution(object):
+    def matrixScore(self, A):
+        """
+        :type A: List[List[int]]
+        :rtype: int
+        """
         

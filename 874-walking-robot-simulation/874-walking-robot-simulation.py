@@ -1,3 +1,8 @@
-class Solution:
-    def robotSim(self, commands: List[int], obstacles: List[List[int]]) -> int:
+class Solution(object):
+    def robotSim(self, commands, obstacles):
+        """
+        :type commands: List[int]
+        :type obstacles: List[List[int]]
+        :rtype: int
+        """
         

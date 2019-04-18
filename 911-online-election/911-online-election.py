@@ -1,9 +1,17 @@
-class TopVotedCandidate:
+class TopVotedCandidate(object):
 
-    def __init__(self, persons: List[int], times: List[int]):
+    def __init__(self, persons, times):
+        """
+        :type persons: List[int]
+        :type times: List[int]
+        """
         
 
-    def q(self, t: int) -> int:
+    def q(self, t):
+        """
+        :type t: int
+        :rtype: int
+        """
         
 
 

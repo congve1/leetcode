@@ -1,3 +1,7 @@
-class Solution:
-    def countSmaller(self, nums: List[int]) -> List[int]:
+class Solution(object):
+    def countSmaller(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
         

@@ -1,3 +1,8 @@
-class Solution:
-    def canPlaceFlowers(self, flowerbed: List[int], n: int) -> bool:
+class Solution(object):
+    def canPlaceFlowers(self, flowerbed, n):
+        """
+        :type flowerbed: List[int]
+        :type n: int
+        :rtype: bool
+        """
         

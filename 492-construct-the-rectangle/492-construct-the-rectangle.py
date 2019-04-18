@@ -1,3 +1,7 @@
-class Solution:
-    def constructRectangle(self, area: int) -> List[int]:
+class Solution(object):
+    def constructRectangle(self, area):
+        """
+        :type area: int
+        :rtype: List[int]
+        """
         

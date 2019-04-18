@@ -1,3 +1,7 @@
-class Solution:
-    def minimumTotal(self, triangle: List[List[int]]) -> int:
+class Solution(object):
+    def minimumTotal(self, triangle):
+        """
+        :type triangle: List[List[int]]
+        :rtype: int
+        """
         

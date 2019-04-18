@@ -1,3 +1,7 @@
-class Solution:
-    def largestNumber(self, nums: List[int]) -> str:
+class Solution(object):
+    def largestNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: str
+        """
         

@@ -1,3 +1,7 @@
-class Solution:
-    def imageSmoother(self, M: List[List[int]]) -> List[List[int]]:
+class Solution(object):
+    def imageSmoother(self, M):
+        """
+        :type M: List[List[int]]
+        :rtype: List[List[int]]
+        """
         

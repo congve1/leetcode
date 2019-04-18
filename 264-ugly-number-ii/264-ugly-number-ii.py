@@ -1,3 +1,7 @@
-class Solution:
-    def nthUglyNumber(self, n: int) -> int:
+class Solution(object):
+    def nthUglyNumber(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
         

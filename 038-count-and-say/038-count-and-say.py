@@ -1,3 +1,7 @@
-class Solution:
-    def countAndSay(self, n: int) -> str:
+class Solution(object):
+    def countAndSay(self, n):
+        """
+        :type n: int
+        :rtype: str
+        """
         

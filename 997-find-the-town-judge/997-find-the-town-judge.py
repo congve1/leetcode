@@ -1,3 +1,8 @@
-class Solution:
-    def findJudge(self, N: int, trust: List[List[int]]) -> int:
+class Solution(object):
+    def findJudge(self, N, trust):
+        """
+        :type N: int
+        :type trust: List[List[int]]
+        :rtype: int
+        """
         

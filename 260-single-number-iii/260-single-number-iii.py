@@ -1,3 +1,7 @@
-class Solution:
-    def singleNumber(self, nums: List[int]) -> List[int]:
+class Solution(object):
+    def singleNumber(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
         

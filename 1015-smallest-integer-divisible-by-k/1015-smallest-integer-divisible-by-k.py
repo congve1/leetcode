@@ -1,2 +1,6 @@
-class Solution:
-    def smallestRepunitDivByK(self, K: int) -> int:
+class Solution(object):
+    def smallestRepunitDivByK(self, K):
+        """
+        :type K: int
+        :rtype: int
+        """

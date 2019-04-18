@@ -1,4 +1,4 @@
-class MedianFinder:
+class MedianFinder(object):
 
     def __init__(self):
         """
@@ -6,10 +6,17 @@ class MedianFinder:
         """
         
 
-    def addNum(self, num: int) -> None:
+    def addNum(self, num):
+        """
+        :type num: int
+        :rtype: None
+        """
         
 
-    def findMedian(self) -> float:
+    def findMedian(self):
+        """
+        :rtype: float
+        """
         
 
 

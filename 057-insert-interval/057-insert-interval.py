@@ -1,9 +1,14 @@
 # Definition for an interval.
-# class Interval:
+# class Interval(object):
 #     def __init__(self, s=0, e=0):
 #         self.start = s
 #         self.end = e
 
-class Solution:
-    def insert(self, intervals: List[Interval], newInterval: Interval) -> List[Interval]:
+class Solution(object):
+    def insert(self, intervals, newInterval):
+        """
+        :type intervals: List[Interval]
+        :type newInterval: Interval
+        :rtype: List[Interval]
+        """
         

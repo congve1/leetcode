@@ -1,3 +1,9 @@
-class Solution:
-    def minRefuelStops(self, target: int, startFuel: int, stations: List[List[int]]) -> int:
+class Solution(object):
+    def minRefuelStops(self, target, startFuel, stations):
+        """
+        :type target: int
+        :type startFuel: int
+        :type stations: List[List[int]]
+        :rtype: int
+        """
         

@@ -1,3 +1,7 @@
-class Solution:
-    def canReorderDoubled(self, A: List[int]) -> bool:
+class Solution(object):
+    def canReorderDoubled(self, A):
+        """
+        :type A: List[int]
+        :rtype: bool
+        """
         

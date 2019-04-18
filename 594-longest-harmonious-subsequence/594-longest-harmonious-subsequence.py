@@ -1,3 +1,7 @@
-class Solution:
-    def findLHS(self, nums: List[int]) -> int:
+class Solution(object):
+    def findLHS(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         

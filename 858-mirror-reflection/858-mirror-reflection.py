@@ -1,3 +1,8 @@
-class Solution:
-    def mirrorReflection(self, p: int, q: int) -> int:
+class Solution(object):
+    def mirrorReflection(self, p, q):
+        """
+        :type p: int
+        :type q: int
+        :rtype: int
+        """
         

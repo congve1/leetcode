@@ -1,3 +1,7 @@
-class Solution:
-    def strangePrinter(self, s: str) -> int:
+class Solution(object):
+    def strangePrinter(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
         

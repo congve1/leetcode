@@ -1,3 +1,7 @@
-class Solution:
-    def islandPerimeter(self, grid: List[List[int]]) -> int:
+class Solution(object):
+    def islandPerimeter(self, grid):
+        """
+        :type grid: List[List[int]]
+        :rtype: int
+        """
         

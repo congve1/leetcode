@@ -1,3 +1,8 @@
-class Solution:
-    def combine(self, n: int, k: int) -> List[List[int]]:
+class Solution(object):
+    def combine(self, n, k):
+        """
+        :type n: int
+        :type k: int
+        :rtype: List[List[int]]
+        """
         

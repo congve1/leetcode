@@ -1,3 +1,7 @@
-class Solution:
-    def findLUSlength(self, strs: List[str]) -> int:
+class Solution(object):
+    def findLUSlength(self, strs):
+        """
+        :type strs: List[str]
+        :rtype: int
+        """
         

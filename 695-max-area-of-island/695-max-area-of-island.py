@@ -1,3 +1,7 @@
-class Solution:
-    def maxAreaOfIsland(self, grid: List[List[int]]) -> int:
+class Solution(object):
+    def maxAreaOfIsland(self, grid):
+        """
+        :type grid: List[List[int]]
+        :rtype: int
+        """
         

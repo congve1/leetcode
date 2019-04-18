@@ -38,26 +38,16 @@ In Pascal's triangle, each number is the sum of the two numbers directly above i
 **Example:**
 
     
-    
-
-    **Input:** 5
-
-    **Output:**
-
-    [
-
-         [1],
-
-        [1,1],
-
-       [1,2,1],
-
-      [1,3,3,1],
-
-     [1,4,6,4,1]
-
-    ]
-
+    
+    **Input:** 5
+    **Output:**
+    [
+         [1],
+        [1,1],
+       [1,2,1],
+      [1,3,3,1],
+     [1,4,6,4,1]
+    ]
     
 
 
@@ -66,7 +56,3 @@ In Pascal's triangle, each number is the sum of the two numbers directly above i
 **Difficulty:** Easy
 
 **思路:**
-虽然这一算法非常简单，但用于构造杨辉三角的迭代方法可以归类为动态规划，因为我们需要基于前一行来构造每一行。
-复杂度分析：
-- 时间复杂度: $O(numrows^2)$
-- 空间复杂度: $O(numrows^2)$

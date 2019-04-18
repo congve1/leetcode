@@ -1,3 +1,7 @@
-class Solution:
-    def numSpecialEquivGroups(self, A: List[str]) -> int:
+class Solution(object):
+    def numSpecialEquivGroups(self, A):
+        """
+        :type A: List[str]
+        :rtype: int
+        """
         

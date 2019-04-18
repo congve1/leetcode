@@ -1,3 +1,7 @@
-class Solution:
-    def maxSubarraySumCircular(self, A: List[int]) -> int:
+class Solution(object):
+    def maxSubarraySumCircular(self, A):
+        """
+        :type A: List[int]
+        :rtype: int
+        """
         

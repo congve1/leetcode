@@ -1,3 +1,7 @@
-class Solution:
-    def smallestGoodBase(self, n: str) -> str:
+class Solution(object):
+    def smallestGoodBase(self, n):
+        """
+        :type n: str
+        :rtype: str
+        """
         

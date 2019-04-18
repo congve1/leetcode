@@ -1,3 +1,7 @@
-class Solution:
-    def totalFruit(self, tree: List[int]) -> int:
+class Solution(object):
+    def totalFruit(self, tree):
+        """
+        :type tree: List[int]
+        :rtype: int
+        """
         

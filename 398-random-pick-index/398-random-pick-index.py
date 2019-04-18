@@ -1,9 +1,16 @@
-class Solution:
+class Solution(object):
 
-    def __init__(self, nums: List[int]):
+    def __init__(self, nums):
+        """
+        :type nums: List[int]
+        """
         
 
-    def pick(self, target: int) -> int:
+    def pick(self, target):
+        """
+        :type target: int
+        :rtype: int
+        """
         
 
 

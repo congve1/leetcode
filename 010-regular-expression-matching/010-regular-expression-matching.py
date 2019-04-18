@@ -1,3 +1,8 @@
-class Solution:
-    def isMatch(self, s: str, p: str) -> bool:
+class Solution(object):
+    def isMatch(self, s, p):
+        """
+        :type s: str
+        :type p: str
+        :rtype: bool
+        """
         

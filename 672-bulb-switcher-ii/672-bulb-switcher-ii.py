@@ -1,3 +1,8 @@
-class Solution:
-    def flipLights(self, n: int, m: int) -> int:
+class Solution(object):
+    def flipLights(self, n, m):
+        """
+        :type n: int
+        :type m: int
+        :rtype: int
+        """
         

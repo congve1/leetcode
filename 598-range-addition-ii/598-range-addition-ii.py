@@ -1,3 +1,9 @@
-class Solution:
-    def maxCount(self, m: int, n: int, ops: List[List[int]]) -> int:
+class Solution(object):
+    def maxCount(self, m, n, ops):
+        """
+        :type m: int
+        :type n: int
+        :type ops: List[List[int]]
+        :rtype: int
+        """
         

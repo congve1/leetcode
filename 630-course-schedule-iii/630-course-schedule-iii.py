@@ -1,3 +1,7 @@
-class Solution:
-    def scheduleCourse(self, courses: List[List[int]]) -> int:
+class Solution(object):
+    def scheduleCourse(self, courses):
+        """
+        :type courses: List[List[int]]
+        :rtype: int
+        """
         

@@ -1,3 +1,7 @@
-class Solution:
-    def scoreOfParentheses(self, S: str) -> int:
+class Solution(object):
+    def scoreOfParentheses(self, S):
+        """
+        :type S: str
+        :rtype: int
+        """
         

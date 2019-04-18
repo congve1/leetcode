@@ -1,2 +1,6 @@
-class Solution:
-    def bitwiseComplement(self, N: int) -> int:
+class Solution(object):
+    def bitwiseComplement(self, N):
+        """
+        :type N: int
+        :rtype: int
+        """

@@ -1,3 +1,7 @@
-class Solution:
-    def monotoneIncreasingDigits(self, N: int) -> int:
+class Solution(object):
+    def monotoneIncreasingDigits(self, N):
+        """
+        :type N: int
+        :rtype: int
+        """
         

@@ -1,4 +1,4 @@
-class MyHashMap:
+class MyHashMap(object):
 
     def __init__(self):
         """
@@ -6,21 +6,28 @@ class MyHashMap:
         """
         
 
-    def put(self, key: int, value: int) -> None:
+    def put(self, key, value):
         """
         value will always be non-negative.
+        :type key: int
+        :type value: int
+        :rtype: None
         """
         
 
-    def get(self, key: int) -> int:
+    def get(self, key):
         """
         Returns the value to which the specified key is mapped, or -1 if this map contains no mapping for the key
+        :type key: int
+        :rtype: int
         """
         
 
-    def remove(self, key: int) -> None:
+    def remove(self, key):
         """
         Removes the mapping of the specified value key if this map contains a mapping for the key
+        :type key: int
+        :rtype: None
         """
         
 

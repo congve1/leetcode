@@ -1,3 +1,8 @@
-class Solution:
-    def nthSuperUglyNumber(self, n: int, primes: List[int]) -> int:
+class Solution(object):
+    def nthSuperUglyNumber(self, n, primes):
+        """
+        :type n: int
+        :type primes: List[int]
+        :rtype: int
+        """
         

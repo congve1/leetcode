@@ -1,3 +1,7 @@
-class Solution:
-    def largestTimeFromDigits(self, A: List[int]) -> str:
+class Solution(object):
+    def largestTimeFromDigits(self, A):
+        """
+        :type A: List[int]
+        :rtype: str
+        """
         

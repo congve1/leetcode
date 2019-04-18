@@ -1,3 +1,8 @@
-class Solution:
-    def convert(self, s: str, numRows: int) -> str:
+class Solution(object):
+    def convert(self, s, numRows):
+        """
+        :type s: str
+        :type numRows: int
+        :rtype: str
+        """
         

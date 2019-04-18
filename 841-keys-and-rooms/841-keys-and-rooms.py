@@ -1,3 +1,7 @@
-class Solution:
-    def canVisitAllRooms(self, rooms: List[List[int]]) -> bool:
+class Solution(object):
+    def canVisitAllRooms(self, rooms):
+        """
+        :type rooms: List[List[int]]
+        :rtype: bool
+        """
         

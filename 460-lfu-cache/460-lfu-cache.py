@@ -1,12 +1,24 @@
-class LFUCache:
+class LFUCache(object):
 
-    def __init__(self, capacity: int):
+    def __init__(self, capacity):
+        """
+        :type capacity: int
+        """
         
 
-    def get(self, key: int) -> int:
+    def get(self, key):
+        """
+        :type key: int
+        :rtype: int
+        """
         
 
-    def put(self, key: int, value: int) -> None:
+    def put(self, key, value):
+        """
+        :type key: int
+        :type value: int
+        :rtype: None
+        """
         
 
 

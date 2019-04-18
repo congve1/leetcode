@@ -1,3 +1,8 @@
-class Solution:
-    def advantageCount(self, A: List[int], B: List[int]) -> List[int]:
+class Solution(object):
+    def advantageCount(self, A, B):
+        """
+        :type A: List[int]
+        :type B: List[int]
+        :rtype: List[int]
+        """
         

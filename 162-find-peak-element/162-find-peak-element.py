@@ -1,3 +1,7 @@
-class Solution:
-    def findPeakElement(self, nums: List[int]) -> int:
+class Solution(object):
+    def findPeakElement(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         

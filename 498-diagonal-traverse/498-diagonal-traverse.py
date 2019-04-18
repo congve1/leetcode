@@ -1,3 +1,7 @@
-class Solution:
-    def findDiagonalOrder(self, matrix: List[List[int]]) -> List[int]:
+class Solution(object):
+    def findDiagonalOrder(self, matrix):
+        """
+        :type matrix: List[List[int]]
+        :rtype: List[int]
+        """
         

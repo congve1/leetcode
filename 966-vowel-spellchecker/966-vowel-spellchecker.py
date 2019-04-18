@@ -1,3 +1,8 @@
-class Solution:
-    def spellchecker(self, wordlist: List[str], queries: List[str]) -> List[str]:
+class Solution(object):
+    def spellchecker(self, wordlist, queries):
+        """
+        :type wordlist: List[str]
+        :type queries: List[str]
+        :rtype: List[str]
+        """
         

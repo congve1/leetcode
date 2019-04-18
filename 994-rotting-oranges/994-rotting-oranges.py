@@ -1,3 +1,7 @@
-class Solution:
-    def orangesRotting(self, grid: List[List[int]]) -> int:
+class Solution(object):
+    def orangesRotting(self, grid):
+        """
+        :type grid: List[List[int]]
+        :rtype: int
+        """
         

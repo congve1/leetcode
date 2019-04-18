@@ -1,9 +1,14 @@
-class MyCalendarThree:
+class MyCalendarThree(object):
 
     def __init__(self):
         
 
-    def book(self, start: int, end: int) -> int:
+    def book(self, start, end):
+        """
+        :type start: int
+        :type end: int
+        :rtype: int
+        """
         
 
 

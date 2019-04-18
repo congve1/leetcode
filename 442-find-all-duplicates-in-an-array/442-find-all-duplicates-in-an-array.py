@@ -1,3 +1,7 @@
-class Solution:
-    def findDuplicates(self, nums: List[int]) -> List[int]:
+class Solution(object):
+    def findDuplicates(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
         

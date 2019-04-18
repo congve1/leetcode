@@ -1,3 +1,10 @@
-class Solution:
-    def spiralMatrixIII(self, R: int, C: int, r0: int, c0: int) -> List[List[int]]:
+class Solution(object):
+    def spiralMatrixIII(self, R, C, r0, c0):
+        """
+        :type R: int
+        :type C: int
+        :type r0: int
+        :type c0: int
+        :rtype: List[List[int]]
+        """
         

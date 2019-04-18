@@ -1,3 +1,8 @@
-class Solution:
-    def getHint(self, secret: str, guess: str) -> str:
+class Solution(object):
+    def getHint(self, secret, guess):
+        """
+        :type secret: str
+        :type guess: str
+        :rtype: str
+        """
         

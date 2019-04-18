@@ -1,3 +1,7 @@
-class Solution:
-    def findRedundantConnection(self, edges: List[List[int]]) -> List[int]:
+class Solution(object):
+    def findRedundantConnection(self, edges):
+        """
+        :type edges: List[List[int]]
+        :rtype: List[int]
+        """
         

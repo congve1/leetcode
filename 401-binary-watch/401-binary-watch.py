@@ -1,3 +1,7 @@
-class Solution:
-    def readBinaryWatch(self, num: int) -> List[str]:
+class Solution(object):
+    def readBinaryWatch(self, num):
+        """
+        :type num: int
+        :rtype: List[str]
+        """
         

@@ -1,3 +1,8 @@
-class Solution:
-    def checkSubarraySum(self, nums: List[int], k: int) -> bool:
+class Solution(object):
+    def checkSubarraySum(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: bool
+        """
         

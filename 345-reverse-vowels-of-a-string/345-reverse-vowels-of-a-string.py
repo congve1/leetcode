@@ -1,3 +1,7 @@
-class Solution:
-    def reverseVowels(self, s: str) -> str:
+class Solution(object):
+    def reverseVowels(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
         

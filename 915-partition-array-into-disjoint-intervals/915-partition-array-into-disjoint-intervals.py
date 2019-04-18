@@ -1,3 +1,7 @@
-class Solution:
-    def partitionDisjoint(self, A: List[int]) -> int:
+class Solution(object):
+    def partitionDisjoint(self, A):
+        """
+        :type A: List[int]
+        :rtype: int
+        """
         

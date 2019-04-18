@@ -1,3 +1,8 @@
-class Solution:
-    def movesToStamp(self, stamp: str, target: str) -> List[int]:
+class Solution(object):
+    def movesToStamp(self, stamp, target):
+        """
+        :type stamp: str
+        :type target: str
+        :rtype: List[int]
+        """
         

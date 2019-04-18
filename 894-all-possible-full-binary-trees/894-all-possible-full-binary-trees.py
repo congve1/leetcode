@@ -1,10 +1,14 @@
 # Definition for a binary tree node.
-# class TreeNode:
+# class TreeNode(object):
 #     def __init__(self, x):
 #         self.val = x
 #         self.left = None
 #         self.right = None
 
-class Solution:
-    def allPossibleFBT(self, N: int) -> List[TreeNode]:
+class Solution(object):
+    def allPossibleFBT(self, N):
+        """
+        :type N: int
+        :rtype: List[TreeNode]
+        """
         

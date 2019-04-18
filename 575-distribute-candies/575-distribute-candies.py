@@ -1,3 +1,7 @@
-class Solution:
-    def distributeCandies(self, candies: List[int]) -> int:
+class Solution(object):
+    def distributeCandies(self, candies):
+        """
+        :type candies: List[int]
+        :rtype: int
+        """
         

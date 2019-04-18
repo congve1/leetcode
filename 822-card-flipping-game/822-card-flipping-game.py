@@ -1,3 +1,8 @@
-class Solution:
-    def flipgame(self, fronts: List[int], backs: List[int]) -> int:
+class Solution(object):
+    def flipgame(self, fronts, backs):
+        """
+        :type fronts: List[int]
+        :type backs: List[int]
+        :rtype: int
+        """
         

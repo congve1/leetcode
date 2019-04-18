@@ -1,3 +1,8 @@
-class Solution:
-    def validateStackSequences(self, pushed: List[int], popped: List[int]) -> bool:
+class Solution(object):
+    def validateStackSequences(self, pushed, popped):
+        """
+        :type pushed: List[int]
+        :type popped: List[int]
+        :rtype: bool
+        """
         

@@ -1,3 +1,7 @@
-class Solution:
-    def totalNQueens(self, n: int) -> int:
+class Solution(object):
+    def totalNQueens(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
         

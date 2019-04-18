@@ -1,3 +1,8 @@
-class Solution:
-    def rotateString(self, A: str, B: str) -> bool:
+class Solution(object):
+    def rotateString(self, A, B):
+        """
+        :type A: str
+        :type B: str
+        :rtype: bool
+        """
         

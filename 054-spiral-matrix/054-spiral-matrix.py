@@ -1,3 +1,7 @@
-class Solution:
-    def spiralOrder(self, matrix: List[List[int]]) -> List[int]:
+class Solution(object):
+    def spiralOrder(self, matrix):
+        """
+        :type matrix: List[List[int]]
+        :rtype: List[int]
+        """
         

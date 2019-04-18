@@ -1,3 +1,7 @@
-class Solution:
-    def permute(self, nums: List[int]) -> List[List[int]]:
+class Solution(object):
+    def permute(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
         

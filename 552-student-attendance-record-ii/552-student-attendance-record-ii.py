@@ -1,3 +1,7 @@
-class Solution:
-    def checkRecord(self, n: int) -> int:
+class Solution(object):
+    def checkRecord(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
         

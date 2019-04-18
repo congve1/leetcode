@@ -1,3 +1,8 @@
-class Solution:
-    def leastInterval(self, tasks: List[str], n: int) -> int:
+class Solution(object):
+    def leastInterval(self, tasks, n):
+        """
+        :type tasks: List[str]
+        :type n: int
+        :rtype: int
+        """
         

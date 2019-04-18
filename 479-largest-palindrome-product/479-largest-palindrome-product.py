@@ -1,3 +1,7 @@
-class Solution:
-    def largestPalindrome(self, n: int) -> int:
+class Solution(object):
+    def largestPalindrome(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
         

@@ -1,3 +1,7 @@
-class Solution:
-    def makeLargestSpecial(self, S: str) -> str:
+class Solution(object):
+    def makeLargestSpecial(self, S):
+        """
+        :type S: str
+        :rtype: str
+        """
         

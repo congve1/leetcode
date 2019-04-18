@@ -1,9 +1,16 @@
-class RLEIterator:
+class RLEIterator(object):
 
-    def __init__(self, A: List[int]):
+    def __init__(self, A):
+        """
+        :type A: List[int]
+        """
         
 
-    def next(self, n: int) -> int:
+    def next(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
         
 
 

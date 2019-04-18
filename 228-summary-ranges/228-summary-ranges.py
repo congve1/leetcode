@@ -1,3 +1,7 @@
-class Solution:
-    def summaryRanges(self, nums: List[int]) -> List[str]:
+class Solution(object):
+    def summaryRanges(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[str]
+        """
         

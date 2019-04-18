@@ -1,3 +1,7 @@
-class Solution:
-    def catMouseGame(self, graph: List[List[int]]) -> int:
+class Solution(object):
+    def catMouseGame(self, graph):
+        """
+        :type graph: List[List[int]]
+        :rtype: int
+        """
         

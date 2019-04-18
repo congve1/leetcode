@@ -1,3 +1,7 @@
-class Solution:
-    def oddEvenJumps(self, A: List[int]) -> int:
+class Solution(object):
+    def oddEvenJumps(self, A):
+        """
+        :type A: List[int]
+        :rtype: int
+        """
         

@@ -1,3 +1,8 @@
-class Solution:
-    def canCompleteCircuit(self, gas: List[int], cost: List[int]) -> int:
+class Solution(object):
+    def canCompleteCircuit(self, gas, cost):
+        """
+        :type gas: List[int]
+        :type cost: List[int]
+        :rtype: int
+        """
         

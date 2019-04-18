@@ -1,3 +1,7 @@
-class Solution:
-    def isPossible(self, nums: List[int]) -> bool:
+class Solution(object):
+    def isPossible(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: bool
+        """
         

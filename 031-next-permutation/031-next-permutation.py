@@ -1,6 +1,7 @@
-class Solution:
-    def nextPermutation(self, nums: List[int]) -> None:
+class Solution(object):
+    def nextPermutation(self, nums):
         """
-        Do not return anything, modify nums in-place instead.
+        :type nums: List[int]
+        :rtype: None Do not return anything, modify nums in-place instead.
         """
         

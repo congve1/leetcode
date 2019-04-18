@@ -1,9 +1,13 @@
-class StockSpanner:
+class StockSpanner(object):
 
     def __init__(self):
         
 
-    def next(self, price: int) -> int:
+    def next(self, price):
+        """
+        :type price: int
+        :rtype: int
+        """
         
 
 

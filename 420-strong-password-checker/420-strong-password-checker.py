@@ -1,3 +1,7 @@
-class Solution:
-    def strongPasswordChecker(self, s: str) -> int:
+class Solution(object):
+    def strongPasswordChecker(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
         

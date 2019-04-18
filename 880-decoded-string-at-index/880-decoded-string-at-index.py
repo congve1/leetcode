@@ -1,3 +1,8 @@
-class Solution:
-    def decodeAtIndex(self, S: str, K: int) -> str:
+class Solution(object):
+    def decodeAtIndex(self, S, K):
+        """
+        :type S: str
+        :type K: int
+        :rtype: str
+        """
         

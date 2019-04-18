@@ -1,10 +1,14 @@
 """
 # Definition for a Node.
-class Node:
+class Node(object):
     def __init__(self, val, neighbors):
         self.val = val
         self.neighbors = neighbors
 """
-class Solution:
-    def cloneGraph(self, node: 'Node') -> 'Node':
+class Solution(object):
+    def cloneGraph(self, node):
+        """
+        :type node: Node
+        :rtype: Node
+        """
         

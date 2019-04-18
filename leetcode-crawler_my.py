@@ -90,8 +90,9 @@ class insetQuestionThread(threading.Thread):
                 if content['data']['question']['content'] != None:
                     code_snippets = ""
                     for snippets in content['data']['question']['codeSnippets']:
-                        if snippets['lang'] == 'Python3':
+                        if snippets['lang'] == 'Python':
                             code_snippets = snippets['code']
+                            print(code_snippets)
                     question_detail = (questionId, 
                                 content['data']['question']['questionFrontendId'], 
                                 content['data']['question']['title'],

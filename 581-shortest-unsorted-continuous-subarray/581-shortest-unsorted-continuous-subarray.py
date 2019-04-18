@@ -1,3 +1,7 @@
-class Solution:
-    def findUnsortedSubarray(self, nums: List[int]) -> int:
+class Solution(object):
+    def findUnsortedSubarray(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         

@@ -1,6 +1,7 @@
-class Solution:
-    def rotate(self, matrix: List[List[int]]) -> None:
+class Solution(object):
+    def rotate(self, matrix):
         """
-        Do not return anything, modify matrix in-place instead.
+        :type matrix: List[List[int]]
+        :rtype: None Do not return anything, modify matrix in-place instead.
         """
         

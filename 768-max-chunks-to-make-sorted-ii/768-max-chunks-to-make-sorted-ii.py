@@ -1,3 +1,7 @@
-class Solution:
-    def maxChunksToSorted(self, arr: List[int]) -> int:
+class Solution(object):
+    def maxChunksToSorted(self, arr):
+        """
+        :type arr: List[int]
+        :rtype: int
+        """
         

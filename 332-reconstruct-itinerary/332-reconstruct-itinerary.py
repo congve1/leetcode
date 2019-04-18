@@ -1,3 +1,7 @@
-class Solution:
-    def findItinerary(self, tickets: List[List[str]]) -> List[str]:
+class Solution(object):
+    def findItinerary(self, tickets):
+        """
+        :type tickets: List[List[str]]
+        :rtype: List[str]
+        """
         

@@ -1,3 +1,8 @@
-class Solution:
-    def nextGreatestLetter(self, letters: List[str], target: str) -> str:
+class Solution(object):
+    def nextGreatestLetter(self, letters, target):
+        """
+        :type letters: List[str]
+        :type target: str
+        :rtype: str
+        """
         

@@ -1,3 +1,7 @@
-class Solution:
-    def deckRevealedIncreasing(self, deck: List[int]) -> List[int]:
+class Solution(object):
+    def deckRevealedIncreasing(self, deck):
+        """
+        :type deck: List[int]
+        :rtype: List[int]
+        """
         

@@ -1,4 +1,4 @@
-class RandomizedSet:
+class RandomizedSet(object):
 
     def __init__(self):
         """
@@ -6,21 +6,26 @@ class RandomizedSet:
         """
         
 
-    def insert(self, val: int) -> bool:
+    def insert(self, val):
         """
         Inserts a value to the set. Returns true if the set did not already contain the specified element.
+        :type val: int
+        :rtype: bool
         """
         
 
-    def remove(self, val: int) -> bool:
+    def remove(self, val):
         """
         Removes a value from the set. Returns true if the set contained the specified element.
+        :type val: int
+        :rtype: bool
         """
         
 
-    def getRandom(self) -> int:
+    def getRandom(self):
         """
         Get a random element from the set.
+        :rtype: int
         """
         
 

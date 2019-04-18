@@ -1,2 +1,6 @@
-class Solution:
-    def numEnclaves(self, A: List[List[int]]) -> int:
+class Solution(object):
+    def numEnclaves(self, A):
+        """
+        :type A: List[List[int]]
+        :rtype: int
+        """

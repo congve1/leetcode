@@ -1,3 +1,8 @@
-class Solution:
-    def isAlienSorted(self, words: List[str], order: str) -> bool:
+class Solution(object):
+    def isAlienSorted(self, words, order):
+        """
+        :type words: List[str]
+        :type order: str
+        :rtype: bool
+        """
         

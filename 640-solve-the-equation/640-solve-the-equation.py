@@ -1,3 +1,7 @@
-class Solution:
-    def solveEquation(self, equation: str) -> str:
+class Solution(object):
+    def solveEquation(self, equation):
+        """
+        :type equation: str
+        :rtype: str
+        """
         

@@ -1,3 +1,7 @@
-class Solution:
-    def numFriendRequests(self, ages: List[int]) -> int:
+class Solution(object):
+    def numFriendRequests(self, ages):
+        """
+        :type ages: List[int]
+        :rtype: int
+        """
         

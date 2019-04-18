@@ -1,3 +1,8 @@
-class Solution:
-    def isLongPressedName(self, name: str, typed: str) -> bool:
+class Solution(object):
+    def isLongPressedName(self, name, typed):
+        """
+        :type name: str
+        :type typed: str
+        :rtype: bool
+        """
         

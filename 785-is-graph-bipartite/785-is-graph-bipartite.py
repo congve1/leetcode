@@ -1,3 +1,7 @@
-class Solution:
-    def isBipartite(self, graph: List[List[int]]) -> bool:
+class Solution(object):
+    def isBipartite(self, graph):
+        """
+        :type graph: List[List[int]]
+        :rtype: bool
+        """
         

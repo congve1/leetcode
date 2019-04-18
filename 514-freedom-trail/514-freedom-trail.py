@@ -1,3 +1,8 @@
-class Solution:
-    def findRotateSteps(self, ring: str, key: str) -> int:
+class Solution(object):
+    def findRotateSteps(self, ring, key):
+        """
+        :type ring: str
+        :type key: str
+        :rtype: int
+        """
         

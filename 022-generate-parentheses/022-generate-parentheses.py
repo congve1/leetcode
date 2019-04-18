@@ -1,3 +1,7 @@
-class Solution:
-    def generateParenthesis(self, n: int) -> List[str]:
+class Solution(object):
+    def generateParenthesis(self, n):
+        """
+        :type n: int
+        :rtype: List[str]
+        """
         

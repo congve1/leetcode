@@ -1,3 +1,9 @@
-class Solution:
-    def numBusesToDestination(self, routes: List[List[int]], S: int, T: int) -> int:
+class Solution(object):
+    def numBusesToDestination(self, routes, S, T):
+        """
+        :type routes: List[List[int]]
+        :type S: int
+        :type T: int
+        :rtype: int
+        """
         

@@ -1,3 +1,7 @@
-class Solution:
-    def findLongestChain(self, pairs: List[List[int]]) -> int:
+class Solution(object):
+    def findLongestChain(self, pairs):
+        """
+        :type pairs: List[List[int]]
+        :rtype: int
+        """
         

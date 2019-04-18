@@ -1,3 +1,7 @@
-class Solution:
-    def frequencySort(self, s: str) -> str:
+class Solution(object):
+    def frequencySort(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
         

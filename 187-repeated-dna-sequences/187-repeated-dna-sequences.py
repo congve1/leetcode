@@ -1,3 +1,7 @@
-class Solution:
-    def findRepeatedDnaSequences(self, s: str) -> List[str]:
+class Solution(object):
+    def findRepeatedDnaSequences(self, s):
+        """
+        :type s: str
+        :rtype: List[str]
+        """
         

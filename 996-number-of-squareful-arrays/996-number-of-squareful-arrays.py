@@ -1,3 +1,7 @@
-class Solution:
-    def numSquarefulPerms(self, A: List[int]) -> int:
+class Solution(object):
+    def numSquarefulPerms(self, A):
+        """
+        :type A: List[int]
+        :rtype: int
+        """
         

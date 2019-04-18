@@ -1,3 +1,8 @@
-class Solution:
-    def canIWin(self, maxChoosableInteger: int, desiredTotal: int) -> bool:
+class Solution(object):
+    def canIWin(self, maxChoosableInteger, desiredTotal):
+        """
+        :type maxChoosableInteger: int
+        :type desiredTotal: int
+        :rtype: bool
+        """
         

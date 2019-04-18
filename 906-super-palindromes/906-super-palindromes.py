@@ -1,3 +1,8 @@
-class Solution:
-    def superpalindromesInRange(self, L: str, R: str) -> int:
+class Solution(object):
+    def superpalindromesInRange(self, L, R):
+        """
+        :type L: str
+        :type R: str
+        :rtype: int
+        """
         

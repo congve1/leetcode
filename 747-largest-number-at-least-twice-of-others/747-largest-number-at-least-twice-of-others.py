@@ -1,3 +1,7 @@
-class Solution:
-    def dominantIndex(self, nums: List[int]) -> int:
+class Solution(object):
+    def dominantIndex(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         

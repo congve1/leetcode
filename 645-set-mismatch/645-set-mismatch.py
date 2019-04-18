@@ -1,3 +1,7 @@
-class Solution:
-    def findErrorNums(self, nums: List[int]) -> List[int]:
+class Solution(object):
+    def findErrorNums(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
         

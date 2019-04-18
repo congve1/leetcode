@@ -1,3 +1,7 @@
-class Solution:
-    def intToRoman(self, num: int) -> str:
+class Solution(object):
+    def intToRoman(self, num):
+        """
+        :type num: int
+        :rtype: str
+        """
         

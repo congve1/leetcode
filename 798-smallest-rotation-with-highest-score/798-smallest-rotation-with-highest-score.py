@@ -1,3 +1,7 @@
-class Solution:
-    def bestRotation(self, A: List[int]) -> int:
+class Solution(object):
+    def bestRotation(self, A):
+        """
+        :type A: List[int]
+        :rtype: int
+        """
         

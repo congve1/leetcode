@@ -1,3 +1,7 @@
-class Solution:
-    def candy(self, ratings: List[int]) -> int:
+class Solution(object):
+    def candy(self, ratings):
+        """
+        :type ratings: List[int]
+        :rtype: int
+        """
         

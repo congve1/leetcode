@@ -1,3 +1,7 @@
-class Solution:
-    def regionsBySlashes(self, grid: List[str]) -> int:
+class Solution(object):
+    def regionsBySlashes(self, grid):
+        """
+        :type grid: List[str]
+        :rtype: int
+        """
         

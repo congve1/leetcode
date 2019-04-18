@@ -1,3 +1,7 @@
-class Solution:
-    def threeEqualParts(self, A: List[int]) -> List[int]:
+class Solution(object):
+    def threeEqualParts(self, A):
+        """
+        :type A: List[int]
+        :rtype: List[int]
+        """
         

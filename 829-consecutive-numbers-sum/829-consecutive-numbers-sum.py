@@ -1,3 +1,7 @@
-class Solution:
-    def consecutiveNumbersSum(self, N: int) -> int:
+class Solution(object):
+    def consecutiveNumbersSum(self, N):
+        """
+        :type N: int
+        :rtype: int
+        """
         

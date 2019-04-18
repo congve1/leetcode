@@ -1,3 +1,8 @@
-class Solution:
-    def superEggDrop(self, K: int, N: int) -> int:
+class Solution(object):
+    def superEggDrop(self, K, N):
+        """
+        :type K: int
+        :type N: int
+        :rtype: int
+        """
         

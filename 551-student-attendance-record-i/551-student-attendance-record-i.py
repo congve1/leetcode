@@ -1,3 +1,7 @@
-class Solution:
-    def checkRecord(self, s: str) -> bool:
+class Solution(object):
+    def checkRecord(self, s):
+        """
+        :type s: str
+        :rtype: bool
+        """
         

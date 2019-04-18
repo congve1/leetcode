@@ -1,3 +1,7 @@
-class Solution:
-    def removeDuplicates(self, nums: List[int]) -> int:
+class Solution(object):
+    def removeDuplicates(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         

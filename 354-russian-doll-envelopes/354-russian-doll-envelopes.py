@@ -1,3 +1,7 @@
-class Solution:
-    def maxEnvelopes(self, envelopes: List[List[int]]) -> int:
+class Solution(object):
+    def maxEnvelopes(self, envelopes):
+        """
+        :type envelopes: List[List[int]]
+        :rtype: int
+        """
         

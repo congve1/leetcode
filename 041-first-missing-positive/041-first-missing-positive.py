@@ -1,3 +1,7 @@
-class Solution:
-    def firstMissingPositive(self, nums: List[int]) -> int:
+class Solution(object):
+    def firstMissingPositive(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         

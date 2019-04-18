@@ -1,3 +1,9 @@
-class Solution:
-    def findClosestElements(self, arr: List[int], k: int, x: int) -> List[int]:
+class Solution(object):
+    def findClosestElements(self, arr, k, x):
+        """
+        :type arr: List[int]
+        :type k: int
+        :type x: int
+        :rtype: List[int]
+        """
         

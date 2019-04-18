@@ -1,3 +1,7 @@
-class Solution:
-    def hasGroupsSizeX(self, deck: List[int]) -> bool:
+class Solution(object):
+    def hasGroupsSizeX(self, deck):
+        """
+        :type deck: List[int]
+        :rtype: bool
+        """
         

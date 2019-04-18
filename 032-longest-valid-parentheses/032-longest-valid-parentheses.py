@@ -1,3 +1,7 @@
-class Solution:
-    def longestValidParentheses(self, s: str) -> int:
+class Solution(object):
+    def longestValidParentheses(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
         

@@ -1,3 +1,8 @@
-class Solution:
-    def fullJustify(self, words: List[str], maxWidth: int) -> List[str]:
+class Solution(object):
+    def fullJustify(self, words, maxWidth):
+        """
+        :type words: List[str]
+        :type maxWidth: int
+        :rtype: List[str]
+        """
         

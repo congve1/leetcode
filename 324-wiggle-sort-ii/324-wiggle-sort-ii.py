@@ -1,6 +1,7 @@
-class Solution:
-    def wiggleSort(self, nums: List[int]) -> None:
+class Solution(object):
+    def wiggleSort(self, nums):
         """
-        Do not return anything, modify nums in-place instead.
+        :type nums: List[int]
+        :rtype: None Do not return anything, modify nums in-place instead.
         """
         

@@ -1,3 +1,7 @@
-class Solution:
-    def canPartition(self, nums: List[int]) -> bool:
+class Solution(object):
+    def canPartition(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: bool
+        """
         

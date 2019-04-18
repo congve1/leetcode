@@ -1,3 +1,7 @@
-class Solution:
-    def letterCasePermutation(self, S: str) -> List[str]:
+class Solution(object):
+    def letterCasePermutation(self, S):
+        """
+        :type S: str
+        :rtype: List[str]
+        """
         

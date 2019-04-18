@@ -1,3 +1,7 @@
-class Solution:
-    def xorGame(self, nums: List[int]) -> bool:
+class Solution(object):
+    def xorGame(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: bool
+        """
         

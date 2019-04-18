@@ -1,3 +1,8 @@
-class Solution:
-    def splitArray(self, nums: List[int], m: int) -> int:
+class Solution(object):
+    def splitArray(self, nums, m):
+        """
+        :type nums: List[int]
+        :type m: int
+        :rtype: int
+        """
         

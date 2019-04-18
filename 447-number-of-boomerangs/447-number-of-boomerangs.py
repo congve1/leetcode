@@ -1,3 +1,7 @@
-class Solution:
-    def numberOfBoomerangs(self, points: List[List[int]]) -> int:
+class Solution(object):
+    def numberOfBoomerangs(self, points):
+        """
+        :type points: List[List[int]]
+        :rtype: int
+        """
         

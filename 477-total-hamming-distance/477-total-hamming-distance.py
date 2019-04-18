@@ -1,3 +1,7 @@
-class Solution:
-    def totalHammingDistance(self, nums: List[int]) -> int:
+class Solution(object):
+    def totalHammingDistance(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         

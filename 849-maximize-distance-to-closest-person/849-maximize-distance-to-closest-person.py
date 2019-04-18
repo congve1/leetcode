@@ -1,3 +1,7 @@
-class Solution:
-    def maxDistToClosest(self, seats: List[int]) -> int:
+class Solution(object):
+    def maxDistToClosest(self, seats):
+        """
+        :type seats: List[int]
+        :rtype: int
+        """
         

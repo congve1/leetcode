@@ -1,12 +1,22 @@
-class Solution:
+class Solution(object):
 
-    def __init__(self, n_rows: int, n_cols: int):
+    def __init__(self, n_rows, n_cols):
+        """
+        :type n_rows: int
+        :type n_cols: int
+        """
         
 
-    def flip(self) -> List[int]:
+    def flip(self):
+        """
+        :rtype: List[int]
+        """
         
 
-    def reset(self) -> None:
+    def reset(self):
+        """
+        :rtype: None
+        """
         
 
 

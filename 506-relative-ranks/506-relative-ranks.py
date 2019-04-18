@@ -1,3 +1,7 @@
-class Solution:
-    def findRelativeRanks(self, nums: List[int]) -> List[str]:
+class Solution(object):
+    def findRelativeRanks(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[str]
+        """
         

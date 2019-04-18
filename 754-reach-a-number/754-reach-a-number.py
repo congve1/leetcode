@@ -1,3 +1,7 @@
-class Solution:
-    def reachNumber(self, target: int) -> int:
+class Solution(object):
+    def reachNumber(self, target):
+        """
+        :type target: int
+        :rtype: int
+        """
         

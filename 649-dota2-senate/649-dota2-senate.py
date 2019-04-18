@@ -1,3 +1,7 @@
-class Solution:
-    def predictPartyVictory(self, senate: str) -> str:
+class Solution(object):
+    def predictPartyVictory(self, senate):
+        """
+        :type senate: str
+        :rtype: str
+        """
         

@@ -1,9 +1,14 @@
-class MyCalendarTwo:
+class MyCalendarTwo(object):
 
     def __init__(self):
         
 
-    def book(self, start: int, end: int) -> bool:
+    def book(self, start, end):
+        """
+        :type start: int
+        :type end: int
+        :rtype: bool
+        """
         
 
 

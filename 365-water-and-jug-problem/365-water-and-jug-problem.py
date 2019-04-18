@@ -1,3 +1,9 @@
-class Solution:
-    def canMeasureWater(self, x: int, y: int, z: int) -> bool:
+class Solution(object):
+    def canMeasureWater(self, x, y, z):
+        """
+        :type x: int
+        :type y: int
+        :type z: int
+        :rtype: bool
+        """
         

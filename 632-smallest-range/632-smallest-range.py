@@ -1,3 +1,7 @@
-class Solution:
-    def smallestRange(self, nums: List[List[int]]) -> List[int]:
+class Solution(object):
+    def smallestRange(self, nums):
+        """
+        :type nums: List[List[int]]
+        :rtype: List[int]
+        """
         

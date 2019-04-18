@@ -1,3 +1,7 @@
-class Solution:
-    def swimInWater(self, grid: List[List[int]]) -> int:
+class Solution(object):
+    def swimInWater(self, grid):
+        """
+        :type grid: List[List[int]]
+        :rtype: int
+        """
         

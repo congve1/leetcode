@@ -1,3 +1,7 @@
-class Solution:
-    def longestPalindrome(self, s: str) -> int:
+class Solution(object):
+    def longestPalindrome(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
         

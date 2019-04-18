@@ -1,2 +1,7 @@
-class Solution:
-    def queryString(self, S: str, N: int) -> bool:
+class Solution(object):
+    def queryString(self, S, N):
+        """
+        :type S: str
+        :type N: int
+        :rtype: bool
+        """

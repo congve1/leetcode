@@ -1,3 +1,7 @@
-class Solution:
-    def majorityElement(self, nums: List[int]) -> List[int]:
+class Solution(object):
+    def majorityElement(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[int]
+        """
         

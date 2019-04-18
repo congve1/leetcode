@@ -1,10 +1,10 @@
 # Definition for an interval.
-# class Interval:
+# class Interval(object):
 #     def __init__(self, s=0, e=0):
 #         self.start = s
 #         self.end = e
 
-class SummaryRanges:
+class SummaryRanges(object):
 
     def __init__(self):
         """
@@ -12,10 +12,17 @@ class SummaryRanges:
         """
         
 
-    def addNum(self, val: int) -> None:
+    def addNum(self, val):
+        """
+        :type val: int
+        :rtype: None
+        """
         
 
-    def getIntervals(self) -> List[Interval]:
+    def getIntervals(self):
+        """
+        :rtype: List[Interval]
+        """
         
 
 

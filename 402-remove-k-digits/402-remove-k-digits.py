@@ -1,3 +1,8 @@
-class Solution:
-    def removeKdigits(self, num: str, k: int) -> str:
+class Solution(object):
+    def removeKdigits(self, num, k):
+        """
+        :type num: str
+        :type k: int
+        :rtype: str
+        """
         

@@ -1,3 +1,7 @@
-class Solution:
-    def validTicTacToe(self, board: List[str]) -> bool:
+class Solution(object):
+    def validTicTacToe(self, board):
+        """
+        :type board: List[str]
+        :rtype: bool
+        """
         

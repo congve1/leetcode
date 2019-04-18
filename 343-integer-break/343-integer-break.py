@@ -1,3 +1,7 @@
-class Solution:
-    def integerBreak(self, n: int) -> int:
+class Solution(object):
+    def integerBreak(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
         

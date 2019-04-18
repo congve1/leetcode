@@ -1,3 +1,7 @@
-class Solution:
-    def subsets(self, nums: List[int]) -> List[List[int]]:
+class Solution(object):
+    def subsets(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: List[List[int]]
+        """
         

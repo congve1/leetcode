@@ -1,3 +1,7 @@
-class Solution:
-    def findSubstringInWraproundString(self, p: str) -> int:
+class Solution(object):
+    def findSubstringInWraproundString(self, p):
+        """
+        :type p: str
+        :rtype: int
+        """
         

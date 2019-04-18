@@ -1,3 +1,8 @@
-class Solution:
-    def subarraySum(self, nums: List[int], k: int) -> int:
+class Solution(object):
+    def subarraySum(self, nums, k):
+        """
+        :type nums: List[int]
+        :type k: int
+        :rtype: int
+        """
         

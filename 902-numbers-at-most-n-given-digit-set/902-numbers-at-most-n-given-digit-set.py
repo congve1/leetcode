@@ -1,3 +1,8 @@
-class Solution:
-    def atMostNGivenDigitSet(self, D: List[str], N: int) -> int:
+class Solution(object):
+    def atMostNGivenDigitSet(self, D, N):
+        """
+        :type D: List[str]
+        :type N: int
+        :rtype: int
+        """
         

@@ -1,3 +1,7 @@
-class Solution:
-    def palindromePairs(self, words: List[str]) -> List[List[int]]:
+class Solution(object):
+    def palindromePairs(self, words):
+        """
+        :type words: List[str]
+        :rtype: List[List[int]]
+        """
         

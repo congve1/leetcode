@@ -1,3 +1,7 @@
-class Solution:
-    def validMountainArray(self, A: List[int]) -> bool:
+class Solution(object):
+    def validMountainArray(self, A):
+        """
+        :type A: List[int]
+        :rtype: bool
+        """
         

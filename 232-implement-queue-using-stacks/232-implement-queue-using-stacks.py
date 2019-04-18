@@ -1,4 +1,4 @@
-class MyQueue:
+class MyQueue(object):
 
     def __init__(self):
         """
@@ -6,27 +6,32 @@ class MyQueue:
         """
         
 
-    def push(self, x: int) -> None:
+    def push(self, x):
         """
         Push element x to the back of queue.
+        :type x: int
+        :rtype: None
         """
         
 
-    def pop(self) -> int:
+    def pop(self):
         """
         Removes the element from in front of queue and returns that element.
+        :rtype: int
         """
         
 
-    def peek(self) -> int:
+    def peek(self):
         """
         Get the front element.
+        :rtype: int
         """
         
 
-    def empty(self) -> bool:
+    def empty(self):
         """
         Returns whether the queue is empty.
+        :rtype: bool
         """
         
 

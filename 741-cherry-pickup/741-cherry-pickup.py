@@ -1,3 +1,7 @@
-class Solution:
-    def cherryPickup(self, grid: List[List[int]]) -> int:
+class Solution(object):
+    def cherryPickup(self, grid):
+        """
+        :type grid: List[List[int]]
+        :rtype: int
+        """
         

@@ -1,3 +1,7 @@
-class Solution:
-    def canCross(self, stones: List[int]) -> bool:
+class Solution(object):
+    def canCross(self, stones):
+        """
+        :type stones: List[int]
+        :rtype: bool
+        """
         

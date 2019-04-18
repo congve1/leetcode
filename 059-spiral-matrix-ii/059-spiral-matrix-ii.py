@@ -1,3 +1,7 @@
-class Solution:
-    def generateMatrix(self, n: int) -> List[List[int]]:
+class Solution(object):
+    def generateMatrix(self, n):
+        """
+        :type n: int
+        :rtype: List[List[int]]
+        """
         

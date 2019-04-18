@@ -1,3 +1,11 @@
-class Solution:
-    def findCheapestPrice(self, n: int, flights: List[List[int]], src: int, dst: int, K: int) -> int:
+class Solution(object):
+    def findCheapestPrice(self, n, flights, src, dst, K):
+        """
+        :type n: int
+        :type flights: List[List[int]]
+        :type src: int
+        :type dst: int
+        :type K: int
+        :rtype: int
+        """
         

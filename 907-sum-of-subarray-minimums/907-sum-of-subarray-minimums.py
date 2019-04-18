@@ -1,3 +1,7 @@
-class Solution:
-    def sumSubarrayMins(self, A: List[int]) -> int:
+class Solution(object):
+    def sumSubarrayMins(self, A):
+        """
+        :type A: List[int]
+        :rtype: int
+        """
         

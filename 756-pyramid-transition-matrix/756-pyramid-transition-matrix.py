@@ -1,3 +1,8 @@
-class Solution:
-    def pyramidTransition(self, bottom: str, allowed: List[str]) -> bool:
+class Solution(object):
+    def pyramidTransition(self, bottom, allowed):
+        """
+        :type bottom: str
+        :type allowed: List[str]
+        :rtype: bool
+        """
         

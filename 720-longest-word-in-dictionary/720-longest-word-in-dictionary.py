@@ -1,3 +1,7 @@
-class Solution:
-    def longestWord(self, words: List[str]) -> str:
+class Solution(object):
+    def longestWord(self, words):
+        """
+        :type words: List[str]
+        :rtype: str
+        """
         

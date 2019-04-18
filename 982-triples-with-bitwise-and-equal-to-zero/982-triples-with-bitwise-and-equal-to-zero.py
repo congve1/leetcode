@@ -1,3 +1,7 @@
-class Solution:
-    def countTriplets(self, A: List[int]) -> int:
+class Solution(object):
+    def countTriplets(self, A):
+        """
+        :type A: List[int]
+        :rtype: int
+        """
         

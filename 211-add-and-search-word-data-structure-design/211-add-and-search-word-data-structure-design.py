@@ -1,4 +1,4 @@
-class WordDictionary:
+class WordDictionary(object):
 
     def __init__(self):
         """
@@ -6,15 +6,19 @@ class WordDictionary:
         """
         
 
-    def addWord(self, word: str) -> None:
+    def addWord(self, word):
         """
         Adds a word into the data structure.
+        :type word: str
+        :rtype: None
         """
         
 
-    def search(self, word: str) -> bool:
+    def search(self, word):
         """
         Returns if the word is in the data structure. A word could contain the dot character '.' to represent any one letter.
+        :type word: str
+        :rtype: bool
         """
         
 

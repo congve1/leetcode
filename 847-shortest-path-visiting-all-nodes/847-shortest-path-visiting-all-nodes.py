@@ -1,3 +1,7 @@
-class Solution:
-    def shortestPathLength(self, graph: List[List[int]]) -> int:
+class Solution(object):
+    def shortestPathLength(self, graph):
+        """
+        :type graph: List[List[int]]
+        :rtype: int
+        """
         

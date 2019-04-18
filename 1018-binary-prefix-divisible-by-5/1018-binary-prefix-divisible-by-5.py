@@ -1,2 +1,6 @@
-class Solution:
-    def prefixesDivBy5(self, A: List[int]) -> List[bool]:
+class Solution(object):
+    def prefixesDivBy5(self, A):
+        """
+        :type A: List[int]
+        :rtype: List[bool]
+        """

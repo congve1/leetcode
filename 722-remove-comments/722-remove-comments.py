@@ -1,3 +1,7 @@
-class Solution:
-    def removeComments(self, source: List[str]) -> List[str]:
+class Solution(object):
+    def removeComments(self, source):
+        """
+        :type source: List[str]
+        :rtype: List[str]
+        """
         

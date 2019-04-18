@@ -1,3 +1,7 @@
-class Solution:
-    def shortestBridge(self, A: List[List[int]]) -> int:
+class Solution(object):
+    def shortestBridge(self, A):
+        """
+        :type A: List[List[int]]
+        :rtype: int
+        """
         

@@ -1,3 +1,8 @@
-class Solution:
-    def loudAndRich(self, richer: List[List[int]], quiet: List[int]) -> List[int]:
+class Solution(object):
+    def loudAndRich(self, richer, quiet):
+        """
+        :type richer: List[List[int]]
+        :type quiet: List[int]
+        :rtype: List[int]
+        """
         

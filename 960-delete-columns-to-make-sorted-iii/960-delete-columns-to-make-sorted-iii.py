@@ -1,3 +1,7 @@
-class Solution:
-    def minDeletionSize(self, A: List[str]) -> int:
+class Solution(object):
+    def minDeletionSize(self, A):
+        """
+        :type A: List[str]
+        :rtype: int
+        """
         

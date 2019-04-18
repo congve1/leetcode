@@ -1,3 +1,7 @@
-class Solution:
-    def beautifulArray(self, N: int) -> List[int]:
+class Solution(object):
+    def beautifulArray(self, N):
+        """
+        :type N: int
+        :rtype: List[int]
+        """
         

@@ -1,3 +1,7 @@
-class Solution:
-    def eventualSafeNodes(self, graph: List[List[int]]) -> List[int]:
+class Solution(object):
+    def eventualSafeNodes(self, graph):
+        """
+        :type graph: List[List[int]]
+        :rtype: List[int]
+        """
         

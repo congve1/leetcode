@@ -1,3 +1,7 @@
-class Solution:
-    def removeBoxes(self, boxes: List[int]) -> int:
+class Solution(object):
+    def removeBoxes(self, boxes):
+        """
+        :type boxes: List[int]
+        :rtype: int
+        """
         

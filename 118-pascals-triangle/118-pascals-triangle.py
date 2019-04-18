@@ -1,9 +1,5 @@
 class Solution:
     def generate(self, numRows: int) -> List[List[int]]:
-        """
-        :type numRows: int
-        :rtype: List[List[int]]
-        """
         if numRows == 0:
             return []
         triangles = [[1]]
@@ -18,6 +14,3 @@ class Solution:
                     row.append(triangles[num-1][i-1]+triangles[num-1][i])
             triangles.append(row)
         return triangles
-
-a = Solution()
-print(a.generate(3))

@@ -1,3 +1,7 @@
-class Solution:
-    def detectCapitalUse(self, word: str) -> bool:
+class Solution(object):
+    def detectCapitalUse(self, word):
+        """
+        :type word: str
+        :rtype: bool
+        """
         

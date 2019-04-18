@@ -1,3 +1,7 @@
-class Solution:
-    def removeDuplicateLetters(self, s: str) -> str:
+class Solution(object):
+    def removeDuplicateLetters(self, s):
+        """
+        :type s: str
+        :rtype: str
+        """
         

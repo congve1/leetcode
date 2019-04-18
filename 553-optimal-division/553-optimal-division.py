@@ -1,3 +1,7 @@
-class Solution:
-    def optimalDivision(self, nums: List[int]) -> str:
+class Solution(object):
+    def optimalDivision(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: str
+        """
         

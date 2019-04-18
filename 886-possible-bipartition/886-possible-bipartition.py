@@ -1,3 +1,8 @@
-class Solution:
-    def possibleBipartition(self, N: int, dislikes: List[List[int]]) -> bool:
+class Solution(object):
+    def possibleBipartition(self, N, dislikes):
+        """
+        :type N: int
+        :type dislikes: List[List[int]]
+        :rtype: bool
+        """
         

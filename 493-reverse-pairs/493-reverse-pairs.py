@@ -1,3 +1,7 @@
-class Solution:
-    def reversePairs(self, nums: List[int]) -> int:
+class Solution(object):
+    def reversePairs(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         

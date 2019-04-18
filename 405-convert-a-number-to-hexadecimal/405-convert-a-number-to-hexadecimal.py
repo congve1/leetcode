@@ -1,3 +1,7 @@
-class Solution:
-    def toHex(self, num: int) -> str:
+class Solution(object):
+    def toHex(self, num):
+        """
+        :type num: int
+        :rtype: str
+        """
         

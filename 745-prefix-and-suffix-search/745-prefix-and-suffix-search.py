@@ -1,9 +1,17 @@
-class WordFilter:
+class WordFilter(object):
 
-    def __init__(self, words: List[str]):
+    def __init__(self, words):
+        """
+        :type words: List[str]
+        """
         
 
-    def f(self, prefix: str, suffix: str) -> int:
+    def f(self, prefix, suffix):
+        """
+        :type prefix: str
+        :type suffix: str
+        :rtype: int
+        """
         
 
 

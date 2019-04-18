@@ -1,3 +1,7 @@
-class Solution:
-    def countSegments(self, s: str) -> int:
+class Solution(object):
+    def countSegments(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
         

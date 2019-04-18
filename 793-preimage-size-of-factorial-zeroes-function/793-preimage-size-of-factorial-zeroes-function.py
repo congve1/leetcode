@@ -1,3 +1,7 @@
-class Solution:
-    def preimageSizeFZF(self, K: int) -> int:
+class Solution(object):
+    def preimageSizeFZF(self, K):
+        """
+        :type K: int
+        :rtype: int
+        """
         

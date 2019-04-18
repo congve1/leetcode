@@ -1,10 +1,14 @@
 # Definition for a binary tree node.
-# class TreeNode:
+# class TreeNode(object):
 #     def __init__(self, x):
 #         self.val = x
 #         self.left = None
 #         self.right = None
 
-class Solution:
-    def minDiffInBST(self, root: TreeNode) -> int:
+class Solution(object):
+    def minDiffInBST(self, root):
+        """
+        :type root: TreeNode
+        :rtype: int
+        """
         

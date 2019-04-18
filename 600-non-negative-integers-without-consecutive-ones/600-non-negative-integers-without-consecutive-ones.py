@@ -1,3 +1,7 @@
-class Solution:
-    def findIntegers(self, num: int) -> int:
+class Solution(object):
+    def findIntegers(self, num):
+        """
+        :type num: int
+        :rtype: int
+        """
         

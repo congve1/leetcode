@@ -1,9 +1,17 @@
-class Solution:
+class Solution(object):
 
-    def __init__(self, radius: float, x_center: float, y_center: float):
+    def __init__(self, radius, x_center, y_center):
+        """
+        :type radius: float
+        :type x_center: float
+        :type y_center: float
+        """
         
 
-    def randPoint(self) -> List[float]:
+    def randPoint(self):
+        """
+        :rtype: List[float]
+        """
         
 
 

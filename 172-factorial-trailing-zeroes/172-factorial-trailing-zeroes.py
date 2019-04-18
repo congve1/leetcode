@@ -1,3 +1,7 @@
-class Solution:
-    def trailingZeroes(self, n: int) -> int:
+class Solution(object):
+    def trailingZeroes(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
         

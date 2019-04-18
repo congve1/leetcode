@@ -1,3 +1,8 @@
-class Solution:
-    def findAnagrams(self, s: str, p: str) -> List[int]:
+class Solution(object):
+    def findAnagrams(self, s, p):
+        """
+        :type s: str
+        :type p: str
+        :rtype: List[int]
+        """
         

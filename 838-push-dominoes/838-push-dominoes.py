@@ -1,3 +1,7 @@
-class Solution:
-    def pushDominoes(self, dominoes: str) -> str:
+class Solution(object):
+    def pushDominoes(self, dominoes):
+        """
+        :type dominoes: str
+        :rtype: str
+        """
         

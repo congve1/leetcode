@@ -1,3 +1,8 @@
-class Solution:
-    def complexNumberMultiply(self, a: str, b: str) -> str:
+class Solution(object):
+    def complexNumberMultiply(self, a, b):
+        """
+        :type a: str
+        :type b: str
+        :rtype: str
+        """
         

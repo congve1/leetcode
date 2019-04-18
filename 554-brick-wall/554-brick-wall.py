@@ -1,3 +1,7 @@
-class Solution:
-    def leastBricks(self, wall: List[List[int]]) -> int:
+class Solution(object):
+    def leastBricks(self, wall):
+        """
+        :type wall: List[List[int]]
+        :rtype: int
+        """
         

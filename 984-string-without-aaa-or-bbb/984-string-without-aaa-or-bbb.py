@@ -1,3 +1,8 @@
-class Solution:
-    def strWithout3a3b(self, A: int, B: int) -> str:
+class Solution(object):
+    def strWithout3a3b(self, A, B):
+        """
+        :type A: int
+        :type B: int
+        :rtype: str
+        """
         

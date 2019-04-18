@@ -1,3 +1,7 @@
-class Solution:
-    def lengthOfLastWord(self, s: str) -> int:
+class Solution(object):
+    def lengthOfLastWord(self, s):
+        """
+        :type s: str
+        :rtype: int
+        """
         

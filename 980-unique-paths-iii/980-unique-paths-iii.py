@@ -1,3 +1,7 @@
-class Solution:
-    def uniquePathsIII(self, grid: List[List[int]]) -> int:
+class Solution(object):
+    def uniquePathsIII(self, grid):
+        """
+        :type grid: List[List[int]]
+        :rtype: int
+        """
         

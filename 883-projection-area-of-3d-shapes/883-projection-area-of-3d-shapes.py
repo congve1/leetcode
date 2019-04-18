@@ -1,3 +1,7 @@
-class Solution:
-    def projectionArea(self, grid: List[List[int]]) -> int:
+class Solution(object):
+    def projectionArea(self, grid):
+        """
+        :type grid: List[List[int]]
+        :rtype: int
+        """
         

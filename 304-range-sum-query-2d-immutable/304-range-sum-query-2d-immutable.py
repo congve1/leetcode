@@ -1,9 +1,19 @@
-class NumMatrix:
+class NumMatrix(object):
 
-    def __init__(self, matrix: List[List[int]]):
+    def __init__(self, matrix):
+        """
+        :type matrix: List[List[int]]
+        """
         
 
-    def sumRegion(self, row1: int, col1: int, row2: int, col2: int) -> int:
+    def sumRegion(self, row1, col1, row2, col2):
+        """
+        :type row1: int
+        :type col1: int
+        :type row2: int
+        :type col2: int
+        :rtype: int
+        """
         
 
 

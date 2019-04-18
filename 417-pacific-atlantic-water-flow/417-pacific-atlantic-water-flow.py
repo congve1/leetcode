@@ -1,3 +1,7 @@
-class Solution:
-    def pacificAtlantic(self, matrix: List[List[int]]) -> List[List[int]]:
+class Solution(object):
+    def pacificAtlantic(self, matrix):
+        """
+        :type matrix: List[List[int]]
+        :rtype: List[List[int]]
+        """
         

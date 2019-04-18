@@ -1,3 +1,8 @@
-class Solution:
-    def searchRange(self, nums: List[int], target: int) -> List[int]:
+class Solution(object):
+    def searchRange(self, nums, target):
+        """
+        :type nums: List[int]
+        :type target: int
+        :rtype: List[int]
+        """
         

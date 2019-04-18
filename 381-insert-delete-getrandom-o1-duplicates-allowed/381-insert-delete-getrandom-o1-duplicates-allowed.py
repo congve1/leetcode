@@ -1,4 +1,4 @@
-class RandomizedCollection:
+class RandomizedCollection(object):
 
     def __init__(self):
         """
@@ -6,21 +6,26 @@ class RandomizedCollection:
         """
         
 
-    def insert(self, val: int) -> bool:
+    def insert(self, val):
         """
         Inserts a value to the collection. Returns true if the collection did not already contain the specified element.
+        :type val: int
+        :rtype: bool
         """
         
 
-    def remove(self, val: int) -> bool:
+    def remove(self, val):
         """
         Removes a value from the collection. Returns true if the collection contained the specified element.
+        :type val: int
+        :rtype: bool
         """
         
 
-    def getRandom(self) -> int:
+    def getRandom(self):
         """
         Get a random element from the collection.
+        :rtype: int
         """
         
 

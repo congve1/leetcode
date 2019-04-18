@@ -1,3 +1,7 @@
-class Solution:
-    def maxCoins(self, nums: List[int]) -> int:
+class Solution(object):
+    def maxCoins(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         

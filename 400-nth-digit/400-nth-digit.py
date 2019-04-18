@@ -1,3 +1,7 @@
-class Solution:
-    def findNthDigit(self, n: int) -> int:
+class Solution(object):
+    def findNthDigit(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
         

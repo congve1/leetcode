@@ -1,3 +1,8 @@
-class Solution:
-    def exclusiveTime(self, n: int, logs: List[str]) -> List[int]:
+class Solution(object):
+    def exclusiveTime(self, n, logs):
+        """
+        :type n: int
+        :type logs: List[str]
+        :rtype: List[int]
+        """
         

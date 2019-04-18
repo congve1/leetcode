@@ -1,3 +1,7 @@
-class Solution:
-    def magicalString(self, n: int) -> int:
+class Solution(object):
+    def magicalString(self, n):
+        """
+        :type n: int
+        :rtype: int
+        """
         

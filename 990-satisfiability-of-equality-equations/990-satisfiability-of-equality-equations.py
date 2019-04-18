@@ -1,3 +1,7 @@
-class Solution:
-    def equationsPossible(self, equations: List[str]) -> bool:
+class Solution(object):
+    def equationsPossible(self, equations):
+        """
+        :type equations: List[str]
+        :rtype: bool
+        """
         

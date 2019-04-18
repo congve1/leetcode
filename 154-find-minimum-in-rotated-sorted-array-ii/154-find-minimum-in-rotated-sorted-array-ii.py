@@ -1,3 +1,7 @@
-class Solution:
-    def findMin(self, nums: List[int]) -> int:
+class Solution(object):
+    def findMin(self, nums):
+        """
+        :type nums: List[int]
+        :rtype: int
+        """
         
