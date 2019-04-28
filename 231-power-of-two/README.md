@@ -40,25 +40,34 @@ Given an integer, write a function to determine if it is a power of two.
 **Example 1:**
 
     
-    
-    **Input:** 1
-    **Output:** true 
-    **Explanation:** 20 = 1
+    
+
+    **Input:** 1
+
+    **Output:** true 
+
+    **Explanation:** 20 = 1
+
     
 
 **Example 2:**
 
     
-    
-    **Input:** 16
-    **Output:** true
+    
+
+    **Input:** 16
+
+    **Output:** true
+
     **Explanation:** 24 = 16
 
 **Example 3:**
 
     
-    
-    **Input:** 218
+    
+
+    **Input:** 218
+
     **Output:** false
 
 
@@ -67,3 +76,5 @@ Given an integer, write a function to determine if it is a power of two.
 **Difficulty:** Easy
 
 **思路:**
+2的幂的二进制有一个特点，就是只有一个位是1
+如果n 与 (n-1)==0,则说明，数字的二进制表达中只有一个1
