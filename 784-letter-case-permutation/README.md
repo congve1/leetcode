@@ -33,16 +33,26 @@
 Given a string S, we can transform every letter individually to be lowercase or uppercase to create another string.  Return a list of all possible strings we could create.
 
     
-    
-    **Examples:**
-    **Input:** S = "a1b2"
-    **Output:** ["a1b2", "a1B2", "A1b2", "A1B2"]
-    
-    **Input:** S = "3z4"
-    **Output:** ["3z4", "3Z4"]
-    
-    **Input:** S = "12345"
-    **Output:** ["12345"]
+    
+
+    **Examples:**
+
+    **Input:** S = "a1b2"
+
+    **Output:** ["a1b2", "a1B2", "A1b2", "A1B2"]
+
+    
+
+    **Input:** S = "3z4"
+
+    **Output:** ["3z4", "3Z4"]
+
+    
+
+    **Input:** S = "12345"
+
+    **Output:** ["12345"]
+
     
 
 **Note:**
@@ -56,3 +66,5 @@ Given a string S, we can transform every letter individually to be lowercase or 
 **Difficulty:** Easy
 
 **思路:**
+DFS回溯：说对于每个元素都先考虑放它的情况，再考虑不放它的情况
+BitMap Bitmap法，字符串S的长度为l， 则总共会有 2** l种结果，换成二进制就是0 ~ 2 **l - 1个数，对于每个数，如果某个位上是0， 就放小写；是1， 就放大写。
