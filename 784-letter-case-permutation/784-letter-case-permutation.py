@@ -4,7 +4,7 @@ class Solution(object):
         :type S: str
         :rtype: List[str]
         """
-         """
+        """
         dfs
         res = []
         l = len(S)
